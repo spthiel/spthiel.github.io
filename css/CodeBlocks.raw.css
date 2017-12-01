@@ -73,7 +73,7 @@
 .message-group .comment .markup pre code:-webkit-any([class~="cmake" i]):before{content:  var(--des-cmake);}
 .message-group .comment .markup pre code:-webkit-any([class~="coq" i]):before{content:  var(--des-coq);}
 .message-group .comment .markup pre code:-webkit-any([class~="csp" i]):before{content:  var(--des-csp);}
-.message-group .comment .markup pre code:-webkit-any([class~="css" i]):before{content:  var(--des-css);}
+/*.message-group .comment .markup pre code:-webkit-any([class~="css" i]):before{content:  var(--des-css);}*/
 .message-group .comment .markup pre code:-webkit-any([class~="capnproto" i],[class~="capnp" i]):before{content:  var(--des-capnproto);}
 .message-group .comment .markup pre code:-webkit-any([class~="clojure" i],[class~="clj" i]):before{content:  var(--des-clojure);}
 .message-group .comment .markup pre code:-webkit-any([class~="coffee" i],[class~="coffeescript" i],[class~="cson" i],[class~="iced" i]):before{content:  var(--des-coffee);}
