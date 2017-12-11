@@ -14,7 +14,7 @@
  *             |___/
  */
 
-.message-group .hljs[class~="1c" i]:before .message-group .hljs[class~="1c" i]::before{content: var(--des-1c)}
+.message-group .hljs[class~="1c" i]::before{content: var(--des-1c)}
 
 /***
  *
@@ -27,28 +27,28 @@
  *
  */
 
- .message-group .hljs[class~="abnf" i]:before .message-group .hljs[class~="abnf" i]::before{content: var(--des-abnf)}
- .message-group .hljs[class~="accesslog" i]:before .message-group .hljs[class~="accesslog" i]::before{content: var(--des-accesslog)}
- .message-group .hljs[class~="actionscript" i]:before .message-group .hljs[class~="actionscript" i]::before{content: var(--des-actionscript)}
- .message-group .hljs[class~="as" i]:before .message-group .hljs[class~="as" i]::before{content: var(--des-actionscript)}
- .message-group .hljs[class~="ada" i]:before .message-group .hljs[class~="ada" i]::before{content: var(--des-ada)}
- .message-group .hljs[class~="apache" i]:before .message-group .hljs[class~="apache" i]::before{content: var(--des-apache)}
- .message-group .hljs[class~="apacheconf" i]:before .message-group .hljs[class~="apacheconf" i]::before{content: var(--des-apache)}
- .message-group .hljs[class~="applescript" i]:before .message-group .hljs[class~="applescript" i]::before{content: var(--des-applescript)}
- .message-group .hljs[class~="osascript" i]:before .message-group .hljs[class~="osascript" i]::before{content: var(--des-applescript)}
- .message-group .hljs[class~="arduino" i]:before .message-group .hljs[class~="arduino" i]::before{content: var(--des-arduino)}
- .message-group .hljs[class~="armasm" i]:before .message-group .hljs[class~="armasm" i]::before{content: var(--des-armasm)}
- .message-group .hljs[class~="arm" i]:before .message-group .hljs[class~="arm" i]::before{content: var(--des-armasm)}
- .message-group .hljs[class~="asciidoc" i]:before .message-group .hljs[class~="asciidoc" i]::before{content: var(--des-asciidoc)}
- .message-group .hljs[class~="adoc" i]:before .message-group .hljs[class~="adoc" i]::before{content: var(--des-asciidoc)}
- .message-group .hljs[class~="aspectj" i]:before .message-group .hljs[class~="aspectj" i]::before{content: var(--des-aspectj)}
- .message-group .hljs[class~="atom" i]:before .message-group .hljs[class~="atom" i]::before{content: var(--des-atom)}
- .message-group .hljs[class~="autohotkey" i]:before .message-group .hljs[class~="autohotkey" i]::before{content: var(--des-autohotkey)}
- .message-group .hljs[class~="ahk" i]:before .message-group .hljs[class~="ahk" i]::before{content: var(--des-autohotkey)}
- .message-group .hljs[class~="autoit" i]:before .message-group .hljs[class~="autoit" i]::before{content: var(--des-autoit)}
- .message-group .hljs[class~="avrasm" i]:before .message-group .hljs[class~="avrasm" i]::before{content: var(--des-avrasm)}
- .message-group .hljs[class~="awk" i]:before .message-group .hljs[class~="awk" i]::before{content: var(--des-awk)}
- .message-group .hljs[class~="axapta" i]:before .message-group .hljs[class~="axapta" i]::before{content: var(--des-axapta)}
+ .message-group .hljs[class~="abnf" i]::before{content: var(--des-abnf)}
+ .message-group .hljs[class~="accesslog" i]::before{content: var(--des-accesslog)}
+ .message-group .hljs[class~="actionscript" i]::before{content: var(--des-actionscript)}
+ .message-group .hljs[class~="as" i]::before{content: var(--des-actionscript)}
+ .message-group .hljs[class~="ada" i]::before{content: var(--des-ada)}
+ .message-group .hljs[class~="apache" i]::before{content: var(--des-apache)}
+ .message-group .hljs[class~="apacheconf" i]::before{content: var(--des-apache)}
+ .message-group .hljs[class~="applescript" i]::before{content: var(--des-applescript)}
+ .message-group .hljs[class~="osascript" i]::before{content: var(--des-applescript)}
+ .message-group .hljs[class~="arduino" i]::before{content: var(--des-arduino)}
+ .message-group .hljs[class~="armasm" i]::before{content: var(--des-armasm)}
+ .message-group .hljs[class~="arm" i]::before{content: var(--des-armasm)}
+ .message-group .hljs[class~="asciidoc" i]::before{content: var(--des-asciidoc)}
+ .message-group .hljs[class~="adoc" i]::before{content: var(--des-asciidoc)}
+ .message-group .hljs[class~="aspectj" i]::before{content: var(--des-aspectj)}
+ .message-group .hljs[class~="atom" i]::before{content: var(--des-atom)}
+ .message-group .hljs[class~="autohotkey" i]::before{content: var(--des-autohotkey)}
+ .message-group .hljs[class~="ahk" i]::before{content: var(--des-autohotkey)}
+ .message-group .hljs[class~="autoit" i]::before{content: var(--des-autoit)}
+ .message-group .hljs[class~="avrasm" i]::before{content: var(--des-avrasm)}
+ .message-group .hljs[class~="awk" i]::before{content: var(--des-awk)}
+ .message-group .hljs[class~="axapta" i]::before{content: var(--des-axapta)}
 
 /***
  *      ____
@@ -61,15 +61,15 @@
  *
  */
 
- .message-group .hljs[class~="bash" i]:before .message-group .hljs[class~="bash" i]::before{content: var(--des-bash)}
- .message-group .hljs[class~="sh" i]:before .message-group .hljs[class~="sh" i]::before{content: var(--des-bash)}
- .message-group .hljs[class~="zsh" i]:before .message-group .hljs[class~="zsh" i]::before{content: var(--des-bash)}
- .message-group .hljs[class~="basic" i]:before .message-group .hljs[class~="basic" i]::before{content: var(--des-basic)}
- .message-group .hljs[class~="dos" i]:before .message-group .hljs[class~="dos" i]::before{content: var(--des-dos)}
- .message-group .hljs[class~="bat" i]:before .message-group .hljs[class~="bat" i]::before{content: var(--des-dos)}
- .message-group .hljs[class~="cmd" i]:before .message-group .hljs[class~="cmd" i]::before{content: var(--des-dos)}
- .message-group .hljs[class~="bnf" i]:before .message-group .hljs[class~="bnf" i]::before{content: var(--des-bnf)}
- .message-group .hljs[class~="brainfuck" i]:before .message-group .hljs[class~="brainfuck" i]::before{content: var(--des-brainfuck)}
+ .message-group .hljs[class~="bash" i]::before{content: var(--des-bash)}
+ .message-group .hljs[class~="sh" i]::before{content: var(--des-bash)}
+ .message-group .hljs[class~="zsh" i]::before{content: var(--des-bash)}
+ .message-group .hljs[class~="basic" i]::before{content: var(--des-basic)}
+ .message-group .hljs[class~="dos" i]::before{content: var(--des-dos)}
+ .message-group .hljs[class~="bat" i]::before{content: var(--des-dos)}
+ .message-group .hljs[class~="cmd" i]::before{content: var(--des-dos)}
+ .message-group .hljs[class~="bnf" i]::before{content: var(--des-bnf)}
+ .message-group .hljs[class~="brainfuck" i]::before{content: var(--des-brainfuck)}
 
 /***
  *       _____
@@ -82,39 +82,39 @@
  *
  */
 
- .message-group .hljs[class~="c" i]:before .message-group .hljs[class~="c" i]::before{content: var(--des-c)}
- .message-group .hljs[class~="cc" i]:before .message-group .hljs[class~="cc" i]::before{content: var(--des-c)}
- .message-group .hljs[class~="cpp" i]:before .message-group .hljs[class~="cpp" i]::before{content: var(--des-c)}
- .message-group .hljs[class~="h" i]:before .message-group .hljs[class~="h" i]::before{content: var(--des-c)}
- .message-group .hljs[class~="hpp" i]:before .message-group .hljs[class~="hpp" i]::before{content: var(--des-c)}
- .message-group .hljs[class~="cs" i]:before .message-group .hljs[class~="cs" i]::before{content: var(--des-cs)}
- .message-group .hljs[class~="csharp" i]:before .message-group .hljs[class~="csharp" i]::before{content: var(--des-cs)}
- .message-group .hljs[class~="cal" i]:before .message-group .hljs[class~="cal" i]::before{content: var(--des-cal)}
- .message-group .hljs[class~="capnproto" i]:before .message-group .hljs[class~="capnproto" i]::before{content: var(--des-capnproto)}
- .message-group .hljs[class~="capnp" i]:before .message-group .hljs[class~="capnp" i]::before{content: var(--des-capnproto)}
- .message-group .hljs[class~="ceylon" i]:before .message-group .hljs[class~="ceylon" i]::before{content: var(--des-ceylon)}
- .message-group .hljs[class~="clean" i]:before .message-group .hljs[class~="clean" i]::before{content: var(--des-clean)}
- .message-group .hljs[class~="icl" i]:before .message-group .hljs[class~="icl" i]::before{content: var(--des-clean)}
- .message-group .hljs[class~="dcl" i]:before .message-group .hljs[class~="dcl" i]::before{content: var(--des-clean)}
- .message-group .hljs[class~="clojure" i]:before .message-group .hljs[class~="clojure" i]::before{content: var(--des-clojure)}
- .message-group .hljs[class~="clj" i]:before .message-group .hljs[class~="clj" i]::before{content: var(--des-clojure)}
- .message-group .hljs[class~="clojure-repl" i]:before .message-group .hljs[class~="clojure-repl" i]::before{content: var(--des-clojure-repl)}
- .message-group .hljs[class~="cmake" i]:before .message-group .hljs[class~="cmake" i]::before{content: var(--des-cmake)}
- .message-group .hljs[class~="coffeescript" i]:before .message-group .hljs[class~="coffeescript" i]::before{content: var(--des-coffeescript)}
- .message-group .hljs[class~="coffee" i]:before .message-group .hljs[class~="coffee" i]::before{content: var(--des-coffeescript)}
- .message-group .hljs[class~="cson" i]:before .message-group .hljs[class~="cson" i]::before{content: var(--des-coffeescript)}
- .message-group .hljs[class~="iced" i]:before .message-group .hljs[class~="iced" i]::before{content: var(--des-coffeescript)}
- .message-group .hljs[class~="coq" i]:before .message-group .hljs[class~="coq" i]::before{content: var(--des-coq)}
- .message-group .hljs[class~="cos" i]:before .message-group .hljs[class~="cos" i]::before{content: var(--des-cos)}
- .message-group .hljs[class~="cls" i]:before .message-group .hljs[class~="cls" i]::before{content: var(--des-cos)}
- .message-group .hljs[class~="podspec" i]:before .message-group .hljs[class~="podspec" i]::before{content: var(--des-podspec)}
- .message-group .hljs[class~="crmsh" i]:before .message-group .hljs[class~="crmsh" i]::before{content: var(--des-crmsh)}
- .message-group .hljs[class~="crm" i]:before .message-group .hljs[class~="crm" i]::before{content: var(--des-crmsh)}
- .message-group .hljs[class~="pcmk" i]:before .message-group .hljs[class~="pcmk" i]::before{content: var(--des-crmsh)}
- .message-group .hljs[class~="crystal" i]:before .message-group .hljs[class~="crystal" i]::before{content: var(--des-crystal)}
- .message-group .hljs[class~="cr" i]:before .message-group .hljs[class~="cr" i]::before{content: var(--des-crystal)}
- .message-group .hljs[class~="csp" i]:before .message-group .hljs[class~="csp" i]::before{content: var(--des-csp)}
- .message-group .hljs[class~="css" i]:before .message-group .hljs[class~="css" i]::before{content: var(--des-css)}
+ .message-group .hljs[class~="c" i]::before{content: var(--des-c)}
+ .message-group .hljs[class~="cc" i]::before{content: var(--des-c)}
+ .message-group .hljs[class~="cpp" i]::before{content: var(--des-c)}
+ .message-group .hljs[class~="h" i]::before{content: var(--des-c)}
+ .message-group .hljs[class~="hpp" i]::before{content: var(--des-c)}
+ .message-group .hljs[class~="cs" i]::before{content: var(--des-cs)}
+ .message-group .hljs[class~="csharp" i]::before{content: var(--des-cs)}
+ .message-group .hljs[class~="cal" i]::before{content: var(--des-cal)}
+ .message-group .hljs[class~="capnproto" i]::before{content: var(--des-capnproto)}
+ .message-group .hljs[class~="capnp" i]::before{content: var(--des-capnproto)}
+ .message-group .hljs[class~="ceylon" i]::before{content: var(--des-ceylon)}
+ .message-group .hljs[class~="clean" i]::before{content: var(--des-clean)}
+ .message-group .hljs[class~="icl" i]::before{content: var(--des-clean)}
+ .message-group .hljs[class~="dcl" i]::before{content: var(--des-clean)}
+ .message-group .hljs[class~="clojure" i]::before{content: var(--des-clojure)}
+ .message-group .hljs[class~="clj" i]::before{content: var(--des-clojure)}
+ .message-group .hljs[class~="clojure-repl" i]::before{content: var(--des-clojure-repl)}
+ .message-group .hljs[class~="cmake" i]::before{content: var(--des-cmake)}
+ .message-group .hljs[class~="coffeescript" i]::before{content: var(--des-coffeescript)}
+ .message-group .hljs[class~="coffee" i]::before{content: var(--des-coffeescript)}
+ .message-group .hljs[class~="cson" i]::before{content: var(--des-coffeescript)}
+ .message-group .hljs[class~="iced" i]::before{content: var(--des-coffeescript)}
+ .message-group .hljs[class~="coq" i]::before{content: var(--des-coq)}
+ .message-group .hljs[class~="cos" i]::before{content: var(--des-cos)}
+ .message-group .hljs[class~="cls" i]::before{content: var(--des-cos)}
+ .message-group .hljs[class~="podspec" i]::before{content: var(--des-podspec)}
+ .message-group .hljs[class~="crmsh" i]::before{content: var(--des-crmsh)}
+ .message-group .hljs[class~="crm" i]::before{content: var(--des-crmsh)}
+ .message-group .hljs[class~="pcmk" i]::before{content: var(--des-crmsh)}
+ .message-group .hljs[class~="crystal" i]::before{content: var(--des-crystal)}
+ .message-group .hljs[class~="cr" i]::before{content: var(--des-crystal)}
+ .message-group .hljs[class~="csp" i]::before{content: var(--des-csp)}
+ .message-group .hljs[class~="css" i]::before{content: var(--des-css)}
 
 /***
  *      _____
@@ -127,22 +127,22 @@
  *
  */
 
- .message-group .hljs[class~="d" i]:before .message-group .hljs[class~="d" i]::before{content: var(--des-d)}
- .message-group .hljs[class~="dart" i]:before .message-group .hljs[class~="dart" i]::before{content: var(--des-dart)}
- .message-group .hljs[class~="delphi" i]:before .message-group .hljs[class~="delphi" i]::before{content: var(--des-delphi)}
- .message-group .hljs[class~="dfm" i]:before .message-group .hljs[class~="dfm" i]::before{content: var(--des-delphi)}
- .message-group .hljs[class~="dpr" i]:before .message-group .hljs[class~="dpr" i]::before{content: var(--des-delphi)}
- .message-group .hljs[class~="diff" i]:before .message-group .hljs[class~="diff" i]::before{content: var(--des-diff)}
- .message-group .hljs[class~="patch" i]:before .message-group .hljs[class~="patch" i]::before{content: var(--des-diff)}
- .message-group .hljs[class~="django" i]:before .message-group .hljs[class~="django" i]::before{content: var(--des-django)}
- .message-group .hljs[class~="jinja" i]:before .message-group .hljs[class~="jinja" i]::before{content: var(--des-django)}
- .message-group .hljs[class~="dns" i]:before .message-group .hljs[class~="dns" i]::before{content: var(--des-dns)}
- .message-group .hljs[class~="dockerfile" i]:before .message-group .hljs[class~="dockerfile" i]::before{content: var(--des-dockerfile)}
- .message-group .hljs[class~="docker" i]:before .message-group .hljs[class~="docker" i]::before{content: var(--des-dockerfile)}
- .message-group .hljs[class~="dsconfig" i]:before .message-group .hljs[class~="dsconfig" i]::before{content: var(--des-dsconfig)}
- .message-group .hljs[class~="dts" i]:before .message-group .hljs[class~="dts" i]::before{content: var(--des-dts)}
- .message-group .hljs[class~="dust" i]:before .message-group .hljs[class~="dust" i]::before{content: var(--des-dust)}
- .message-group .hljs[class~="dst" i]:before .message-group .hljs[class~="dst" i]::before{content: var(--des-dust)}
+ .message-group .hljs[class~="d" i]::before{content: var(--des-d)}
+ .message-group .hljs[class~="dart" i]::before{content: var(--des-dart)}
+ .message-group .hljs[class~="delphi" i]::before{content: var(--des-delphi)}
+ .message-group .hljs[class~="dfm" i]::before{content: var(--des-delphi)}
+ .message-group .hljs[class~="dpr" i]::before{content: var(--des-delphi)}
+ .message-group .hljs[class~="diff" i]::before{content: var(--des-diff)}
+ .message-group .hljs[class~="patch" i]::before{content: var(--des-diff)}
+ .message-group .hljs[class~="django" i]::before{content: var(--des-django)}
+ .message-group .hljs[class~="jinja" i]::before{content: var(--des-django)}
+ .message-group .hljs[class~="dns" i]::before{content: var(--des-dns)}
+ .message-group .hljs[class~="dockerfile" i]::before{content: var(--des-dockerfile)}
+ .message-group .hljs[class~="docker" i]::before{content: var(--des-dockerfile)}
+ .message-group .hljs[class~="dsconfig" i]::before{content: var(--des-dsconfig)}
+ .message-group .hljs[class~="dts" i]::before{content: var(--des-dts)}
+ .message-group .hljs[class~="dust" i]::before{content: var(--des-dust)}
+ .message-group .hljs[class~="dst" i]::before{content: var(--des-dust)}
 
 /***
  *      ______
@@ -155,16 +155,16 @@
  *
  */
 
- .message-group .hljs[class~="ebnf" i]:before .message-group .hljs[class~="ebnf" i]::before{content: var(--des-ebnf)}
- .message-group .hljs[class~="elixir" i]:before .message-group .hljs[class~="elixir" i]::before{content: var(--des-elixir)}
- .message-group .hljs[class~="elm" i]:before .message-group .hljs[class~="elm" i]::before{content: var(--des-elm)}
- .message-group .hljs[class~="erb" i]:before .message-group .hljs[class~="erb" i]::before{content: var(--des-erb)}
- .message-group .hljs[class~="erlang" i]:before .message-group .hljs[class~="erlang" i]::before{content: var(--des-erlang)}
- .message-group .hljs[class~="erl" i]:before .message-group .hljs[class~="erl" i]::before{content: var(--des-erlang)}
- .message-group .hljs[class~="erlang-repl" i]:before .message-group .hljs[class~="erlang-repl" i]::before{content: var(--des-erlang-repl)}
- .message-group .hljs[class~="excel" i]:before .message-group .hljs[class~="excel" i]::before{content: var(--des-excel)}
- .message-group .hljs[class~="xls" i]:before .message-group .hljs[class~="xls" i]::before{content: var(--des-excel)}
- .message-group .hljs[class~="xlsx" i]:before .message-group .hljs[class~="xlsx" i]::before{content: var(--des-excel)}
+ .message-group .hljs[class~="ebnf" i]::before{content: var(--des-ebnf)}
+ .message-group .hljs[class~="elixir" i]::before{content: var(--des-elixir)}
+ .message-group .hljs[class~="elm" i]::before{content: var(--des-elm)}
+ .message-group .hljs[class~="erb" i]::before{content: var(--des-erb)}
+ .message-group .hljs[class~="erlang" i]::before{content: var(--des-erlang)}
+ .message-group .hljs[class~="erl" i]::before{content: var(--des-erlang)}
+ .message-group .hljs[class~="erlang-repl" i]::before{content: var(--des-erlang-repl)}
+ .message-group .hljs[class~="excel" i]::before{content: var(--des-excel)}
+ .message-group .hljs[class~="xls" i]::before{content: var(--des-excel)}
+ .message-group .hljs[class~="xlsx" i]::before{content: var(--des-excel)}
 
 /***
  *      ______
@@ -177,13 +177,13 @@
  *
  */
 
- .message-group .hljs[class~="fs" i]:before .message-group .hljs[class~="fs" i]::before{content: var(--des-fs)}
- .message-group .hljs[class~="fsharp" i]:before .message-group .hljs[class~="fsharp" i]::before{content: var(--des-fs)}
- .message-group .hljs[class~="fix" i]:before .message-group .hljs[class~="fix" i]::before{content: var(--des-fix)}
- .message-group .hljs[class~="flix" i]:before .message-group .hljs[class~="flix" i]::before{content: var(--des-flix)}
- .message-group .hljs[class~="fortran" i]:before .message-group .hljs[class~="fortran" i]::before{content: var(--des-fortran)}
- .message-group .hljs[class~="f90" i]:before .message-group .hljs[class~="f90" i]::before{content: var(--des-fortran)}
- .message-group .hljs[class~="f95" i]:before .message-group .hljs[class~="f95" i]::before{content: var(--des-fortran)}
+ .message-group .hljs[class~="fs" i]::before{content: var(--des-fs)}
+ .message-group .hljs[class~="fsharp" i]::before{content: var(--des-fs)}
+ .message-group .hljs[class~="fix" i]::before{content: var(--des-fix)}
+ .message-group .hljs[class~="flix" i]::before{content: var(--des-flix)}
+ .message-group .hljs[class~="fortran" i]::before{content: var(--des-fortran)}
+ .message-group .hljs[class~="f90" i]::before{content: var(--des-fortran)}
+ .message-group .hljs[class~="f95" i]::before{content: var(--des-fortran)}
 
 /***
  *       _____
@@ -197,20 +197,20 @@
  */
 
 
- .message-group .hljs[class~="gams" i]:before .message-group .hljs[class~="gams" i]::before{content: var(--des-gams)}
- .message-group .hljs[class~="gms" i]:before .message-group .hljs[class~="gms" i]::before{content: var(--des-gams)}
- .message-group .hljs[class~="gauss" i]:before .message-group .hljs[class~="gauss" i]::before{content: var(--des-gauss)}
- .message-group .hljs[class~="gss" i]:before .message-group .hljs[class~="gss" i]::before{content: var(--des-gauss)}
- .message-group .hljs[class~="gcode" i]:before .message-group .hljs[class~="gcode" i]::before{content: var(--des-gcode)}
- .message-group .hljs[class~="nc" i]:before .message-group .hljs[class~="nc" i]::before{content: var(--des-gcode)}
- .message-group .hljs[class~="gherkin" i]:before .message-group .hljs[class~="gherkin" i]::before{content: var(--des-gherkin)}
- .message-group .hljs[class~="feature" i]:before .message-group .hljs[class~="feature" i]::before{content: var(--des-gherkin)}
- .message-group .hljs[class~="glsl" i]:before .message-group .hljs[class~="glsl" i]::before{content: var(--des-glsl)}
- .message-group .hljs[class~="go" i]:before .message-group .hljs[class~="go" i]::before{content: var(--des-go)}
- .message-group .hljs[class~="golang" i]:before .message-group .hljs[class~="golang" i]::before{content: var(--des-go)}
- .message-group .hljs[class~="golo" i]:before .message-group .hljs[class~="golo" i]::before{content: var(--des-golo)}
- .message-group .hljs[class~="gradle" i]:before .message-group .hljs[class~="gradle" i]::before{content: var(--des-gradle)}
- .message-group .hljs[class~="groovy" i]:before .message-group .hljs[class~="groovy" i]::before{content: var(--des-groovy)}
+ .message-group .hljs[class~="gams" i]::before{content: var(--des-gams)}
+ .message-group .hljs[class~="gms" i]::before{content: var(--des-gams)}
+ .message-group .hljs[class~="gauss" i]::before{content: var(--des-gauss)}
+ .message-group .hljs[class~="gss" i]::before{content: var(--des-gauss)}
+ .message-group .hljs[class~="gcode" i]::before{content: var(--des-gcode)}
+ .message-group .hljs[class~="nc" i]::before{content: var(--des-gcode)}
+ .message-group .hljs[class~="gherkin" i]::before{content: var(--des-gherkin)}
+ .message-group .hljs[class~="feature" i]::before{content: var(--des-gherkin)}
+ .message-group .hljs[class~="glsl" i]::before{content: var(--des-glsl)}
+ .message-group .hljs[class~="go" i]::before{content: var(--des-go)}
+ .message-group .hljs[class~="golang" i]::before{content: var(--des-go)}
+ .message-group .hljs[class~="golo" i]::before{content: var(--des-golo)}
+ .message-group .hljs[class~="gradle" i]::before{content: var(--des-gradle)}
+ .message-group .hljs[class~="groovy" i]::before{content: var(--des-groovy)}
 
 /***
  *      _    _
@@ -223,20 +223,20 @@
  *
  */
 
-.message-group .hljs[class~="haml" i]:before .message-group .hljs[class~="haml" i]::before{content: var(--des-haml)}
-.message-group .hljs[class~="handlebars" i]:before .message-group .hljs[class~="handlebars" i]::before{content: var(--des-handlebars)}
-.message-group .hljs[class~="hbs" i]:before .message-group .hljs[class~="hbs" i]::before{content: var(--des-handlebars)}
-.message-group .hljs[class~="haskell" i]:before .message-group .hljs[class~="haskell" i]::before{content: var(--des-haskell)}
-.message-group .hljs[class~="hs" i]:before .message-group .hljs[class~="hs" i]::before{content: var(--des-haskell)}
-.message-group .hljs[class~="haxe" i]:before .message-group .hljs[class~="haxe" i]::before{content: var(--des-haxe)}
-.message-group .hljs[class~="hx" i]:before .message-group .hljs[class~="hx" i]::before{content: var(--des-haxe)}
-.message-group .hljs[class~="hsp" i]:before .message-group .hljs[class~="hsp" i]::before{content: var(--des-hsp)}
-.message-group .hljs[class~="html" i]:before .message-group .hljs[class~="html" i]::before{content: var(--des-html)}
-.message-group .hljs[class~="htmlbars" i]:before .message-group .hljs[class~="htmlbars" i]::before{content: var(--des-htmlbars)}
-.message-group .hljs[class~="http" i]:before .message-group .hljs[class~="http" i]::before{content: var(--des-http)}
-.message-group .hljs[class~="https" i]:before .message-group .hljs[class~="https" i]::before{content: var(--des-https)}
-.message-group .hljs[class~="hy" i]:before .message-group .hljs[class~="hy" i]::before{content: var(--des-hy)}
-.message-group .hljs[class~="hylang" i]:before .message-group .hljs[class~="hylang" i]::before{content: var(--des-hy)}
+.message-group .hljs[class~="haml" i]::before{content: var(--des-haml)}
+.message-group .hljs[class~="handlebars" i]::before{content: var(--des-handlebars)}
+.message-group .hljs[class~="hbs" i]::before{content: var(--des-handlebars)}
+.message-group .hljs[class~="haskell" i]::before{content: var(--des-haskell)}
+.message-group .hljs[class~="hs" i]::before{content: var(--des-haskell)}
+.message-group .hljs[class~="haxe" i]::before{content: var(--des-haxe)}
+.message-group .hljs[class~="hx" i]::before{content: var(--des-haxe)}
+.message-group .hljs[class~="hsp" i]::before{content: var(--des-hsp)}
+.message-group .hljs[class~="html" i]::before{content: var(--des-html)}
+.message-group .hljs[class~="htmlbars" i]::before{content: var(--des-htmlbars)}
+.message-group .hljs[class~="http" i]::before{content: var(--des-http)}
+.message-group .hljs[class~="https" i]::before{content: var(--des-https)}
+.message-group .hljs[class~="hy" i]::before{content: var(--des-hy)}
+.message-group .hljs[class~="hylang" i]::before{content: var(--des-hy)}
 
 /***
  *      _____
@@ -249,12 +249,12 @@
  *
  */
 
-.message-group .hljs[class~="irb" i]:before .message-group .hljs[class~="irb" i]::before{content: var(--des-irb)}
- .message-group .hljs[class~="inform7" i]:before .message-group .hljs[class~="inform7" i]::before{content: var(--des-inform7)}
- .message-group .hljs[class~="i7" i]:before .message-group .hljs[class~="i7" i]::before{content: var(--des-inform7)}
- .message-group .hljs[class~="ini" i]:before .message-group .hljs[class~="ini" i]::before{content: var(--des-ini)}
- .message-group .hljs[class~="toml" i]:before .message-group .hljs[class~="toml" i]::before{content: var(--des-ini)}
- .message-group .hljs[class~="irpf90" i]:before .message-group .hljs[class~="irpf90" i]::before{content: var(--des-irpf90)}
+.message-group .hljs[class~="irb" i]::before{content: var(--des-irb)}
+ .message-group .hljs[class~="inform7" i]::before{content: var(--des-inform7)}
+ .message-group .hljs[class~="i7" i]::before{content: var(--des-inform7)}
+ .message-group .hljs[class~="ini" i]::before{content: var(--des-ini)}
+ .message-group .hljs[class~="toml" i]::before{content: var(--des-ini)}
+ .message-group .hljs[class~="irpf90" i]::before{content: var(--des-irpf90)}
 
 /***
  *           _
@@ -267,17 +267,17 @@
  *
  */
 
-.message-group .hljs[class~="java" i]:before .message-group .hljs[class~="java" i]::before{content: var(--des-java)}
-.message-group .hljs[class~="jsp" i]:before .message-group .hljs[class~="jsp" i]::before{content: var(--des-java)}
-.message-group .hljs[class~="javascript" i]:before .message-group .hljs[class~="javascript" i]::before{content: var(--des-javascript)}
-.message-group .hljs[class~="js" i]:before .message-group .hljs[class~="js" i]::before{content: var(--des-javascript)}
-.message-group .hljs[class~="jsx" i]:before .message-group .hljs[class~="jsx" i]::before{content: var(--des-javascript)}
-.message-group .hljs[class~="xjb" i]:before .message-group .hljs[class~="xjb" i]::before{content: var(--des-xjb)}
-.message-group .hljs[class~="jboss-cli" i]:before .message-group .hljs[class~="jboss-cli" i]::before{content: var(--des-jboss-cli)}
-.message-group .hljs[class~="wildfly-cli" i]:before .message-group .hljs[class~="wildfly-cli" i]::before{content: var(--des-jboss-cli)}
-.message-group .hljs[class~="json" i]:before .message-group .hljs[class~="json" i]::before{content: var(--des-json)}
-.message-group .hljs[class~="julia" i]:before .message-group .hljs[class~="julia" i]::before{content: var(--des-julia)}
-.message-group .hljs[class~="julia-repl" i]:before .message-group .hljs[class~="julia-repl" i]::before{content: var(--des-julia-repl)}
+.message-group .hljs[class~="java" i]::before{content: var(--des-java)}
+.message-group .hljs[class~="jsp" i]::before{content: var(--des-java)}
+.message-group .hljs[class~="javascript" i]::before{content: var(--des-javascript)}
+.message-group .hljs[class~="js" i]::before{content: var(--des-javascript)}
+.message-group .hljs[class~="jsx" i]::before{content: var(--des-javascript)}
+.message-group .hljs[class~="xjb" i]::before{content: var(--des-xjb)}
+.message-group .hljs[class~="jboss-cli" i]::before{content: var(--des-jboss-cli)}
+.message-group .hljs[class~="wildfly-cli" i]::before{content: var(--des-jboss-cli)}
+.message-group .hljs[class~="json" i]::before{content: var(--des-json)}
+.message-group .hljs[class~="julia" i]::before{content: var(--des-julia)}
+.message-group .hljs[class~="julia-repl" i]::before{content: var(--des-julia-repl)}
 
 /***
  *      _  __
@@ -290,7 +290,7 @@
  *
  */
 
- .message-group .hljs[class~="kotlin" i]:before .message-group .hljs[class~="kotlin" i]::before{content: var(--des-kotlin)}
+ .message-group .hljs[class~="kotlin" i]::before{content: var(--des-kotlin)}
 
 /***
  *      _
@@ -303,19 +303,19 @@
  *
  */
 
- .message-group .hljs[class~="lasso" i]:before .message-group .hljs[class~="lasso" i]::before{content: var(--des-lasso)}
- .message-group .hljs[class~="lassoscript" i]:before .message-group .hljs[class~="lassoscript" i]::before{content: var(--des-lasso)}
- .message-group .hljs[class~="ls" i]:before .message-group .hljs[class~="ls" i]::before{content: var(--des-lasso)}
- .message-group .hljs[class~="ldif" i]:before .message-group .hljs[class~="ldif" i]::before{content: var(--des-ldif)}
- .message-group .hljs[class~="leaf" i]:before .message-group .hljs[class~="leaf" i]::before{content: var(--des-leaf)}
- .message-group .hljs[class~="less" i]:before .message-group .hljs[class~="less" i]::before{content: var(--des-less)}
- .message-group .hljs[class~="lisp" i]:before .message-group .hljs[class~="lisp" i]::before{content: var(--des-lisp)}
- .message-group .hljs[class~="livecodeserver" i]:before .message-group .hljs[class~="livecodeserver" i]::before{content: var(--des-livecodeserver)}
- .message-group .hljs[class~="livescript" i]:before .message-group .hljs[class~="livescript" i]::before{content: var(--des-livescript)}
- .message-group .hljs[class~="ls" i]:before .message-group .hljs[class~="ls" i]::before{content: var(--des-livescript)}
- .message-group .hljs[class~="llvm" i]:before .message-group .hljs[class~="llvm" i]::before{content: var(--des-llvm)}
- .message-group .hljs[class~="lsl" i]:before .message-group .hljs[class~="lsl" i]::before{content: var(--des-lsl)}
- .message-group .hljs[class~="lua" i]:before .message-group .hljs[class~="lua" i]::before{content: var(--des-lua)}
+ .message-group .hljs[class~="lasso" i]::before{content: var(--des-lasso)}
+ .message-group .hljs[class~="lassoscript" i]::before{content: var(--des-lasso)}
+ .message-group .hljs[class~="ls" i]::before{content: var(--des-lasso)}
+ .message-group .hljs[class~="ldif" i]::before{content: var(--des-ldif)}
+ .message-group .hljs[class~="leaf" i]::before{content: var(--des-leaf)}
+ .message-group .hljs[class~="less" i]::before{content: var(--des-less)}
+ .message-group .hljs[class~="lisp" i]::before{content: var(--des-lisp)}
+ .message-group .hljs[class~="livecodeserver" i]::before{content: var(--des-livecodeserver)}
+ .message-group .hljs[class~="livescript" i]::before{content: var(--des-livescript)}
+ .message-group .hljs[class~="ls" i]::before{content: var(--des-livescript)}
+ .message-group .hljs[class~="llvm" i]::before{content: var(--des-llvm)}
+ .message-group .hljs[class~="lsl" i]::before{content: var(--des-lsl)}
+ .message-group .hljs[class~="lua" i]::before{content: var(--des-lua)}
 
 /***
  *      __  __
@@ -328,30 +328,30 @@
  *
  */
 
- .message-group .hljs[class~="makefile" i]:before .message-group .hljs[class~="makefile" i]::before{content: var(--des-makefile)}
- .message-group .hljs[class~="mk" i]:before .message-group .hljs[class~="mk" i]::before{content: var(--des-makefile)}
- .message-group .hljs[class~="mak" i]:before .message-group .hljs[class~="mak" i]::before{content: var(--des-makefile)}
- .message-group .hljs[class~="markdown" i]:before .message-group .hljs[class~="markdown" i]::before{content: var(--des-markdown)}
- .message-group .hljs[class~="md" i]:before .message-group .hljs[class~="md" i]::before{content: var(--des-markdown)}
- .message-group .hljs[class~="mkd" i]:before .message-group .hljs[class~="mkd" i]::before{content: var(--des-markdown)}
- .message-group .hljs[class~="mkdown" i]:before .message-group .hljs[class~="mkdown" i]::before{content: var(--des-markdown)}
- .message-group .hljs[class~="mathematica" i]:before .message-group .hljs[class~="mathematica" i]::before{content: var(--des-mathematica)}
- .message-group .hljs[class~="mma" i]:before .message-group .hljs[class~="mma" i]::before{content: var(--des-mathematica)}
- .message-group .hljs[class~="matlab" i]:before .message-group .hljs[class~="matlab" i]::before{content: var(--des-matlab)}
- .message-group .hljs[class~="maxima" i]:before .message-group .hljs[class~="maxima" i]::before{content: var(--des-maxima)}
- .message-group .hljs[class~="mel" i]:before .message-group .hljs[class~="mel" i]::before{content: var(--des-mel)}
- .message-group .hljs[class~="mercury" i]:before .message-group .hljs[class~="mercury" i]::before{content: var(--des-mercury)}
- .message-group .hljs[class~="m" i]:before .message-group .hljs[class~="m" i]::before{content: var(--des-mercury)}
- .message-group .hljs[class~="moo" i]:before .message-group .hljs[class~="moo" i]::before{content: var(--des-mercury)}
- .message-group .hljs[class~="mipsasm" i]:before .message-group .hljs[class~="mipsasm" i]::before{content: var(--des-mipsasm)}
- .message-group .hljs[class~="mips" i]:before .message-group .hljs[class~="mips" i]::before{content: var(--des-mipsasm)}
- .message-group .hljs[class~="routeros" i]:before .message-group .hljs[class~="routeros" i]::before{content: var(--des-routeros)}
- .message-group .hljs[class~="mikrotik" i]:before .message-group .hljs[class~="mikrotik" i]::before{content: var(--des-routeros)}
- .message-group .hljs[class~="mizar" i]:before .message-group .hljs[class~="mizar" i]::before{content: var(--des-mizar)}
- .message-group .hljs[class~="mojolicious" i]:before .message-group .hljs[class~="mojolicious" i]::before{content: var(--des-mojolicious)}
- .message-group .hljs[class~="monkey" i]:before .message-group .hljs[class~="monkey" i]::before{content: var(--des-monkey)}
- .message-group .hljs[class~="moonscript" i]:before .message-group .hljs[class~="moonscript" i]::before{content: var(--des-moonscript)}
- .message-group .hljs[class~="moon" i]:before .message-group .hljs[class~="moon" i]::before{content: var(--des-moonscript)}
+ .message-group .hljs[class~="makefile" i]::before{content: var(--des-makefile)}
+ .message-group .hljs[class~="mk" i]::before{content: var(--des-makefile)}
+ .message-group .hljs[class~="mak" i]::before{content: var(--des-makefile)}
+ .message-group .hljs[class~="markdown" i]::before{content: var(--des-markdown)}
+ .message-group .hljs[class~="md" i]::before{content: var(--des-markdown)}
+ .message-group .hljs[class~="mkd" i]::before{content: var(--des-markdown)}
+ .message-group .hljs[class~="mkdown" i]::before{content: var(--des-markdown)}
+ .message-group .hljs[class~="mathematica" i]::before{content: var(--des-mathematica)}
+ .message-group .hljs[class~="mma" i]::before{content: var(--des-mathematica)}
+ .message-group .hljs[class~="matlab" i]::before{content: var(--des-matlab)}
+ .message-group .hljs[class~="maxima" i]::before{content: var(--des-maxima)}
+ .message-group .hljs[class~="mel" i]::before{content: var(--des-mel)}
+ .message-group .hljs[class~="mercury" i]::before{content: var(--des-mercury)}
+ .message-group .hljs[class~="m" i]::before{content: var(--des-mercury)}
+ .message-group .hljs[class~="moo" i]::before{content: var(--des-mercury)}
+ .message-group .hljs[class~="mipsasm" i]::before{content: var(--des-mipsasm)}
+ .message-group .hljs[class~="mips" i]::before{content: var(--des-mipsasm)}
+ .message-group .hljs[class~="routeros" i]::before{content: var(--des-routeros)}
+ .message-group .hljs[class~="mikrotik" i]::before{content: var(--des-routeros)}
+ .message-group .hljs[class~="mizar" i]::before{content: var(--des-mizar)}
+ .message-group .hljs[class~="mojolicious" i]::before{content: var(--des-mojolicious)}
+ .message-group .hljs[class~="monkey" i]::before{content: var(--des-monkey)}
+ .message-group .hljs[class~="moonscript" i]::before{content: var(--des-moonscript)}
+ .message-group .hljs[class~="moon" i]::before{content: var(--des-moonscript)}
 
 /***
  *      _   _
@@ -364,14 +364,14 @@
  *
  */
 
-.message-group .hljs[class~="n1ql" i]:before .message-group .hljs[class~="n1ql" i]::before{content: var(--des-n1ql)}
-.message-group .hljs[class~="nginx" i]:before .message-group .hljs[class~="nginx" i]::before{content: var(--des-nginx)}
-.message-group .hljs[class~="nginxconf" i]:before .message-group .hljs[class~="nginxconf" i]::before{content: var(--des-nginx)}
-.message-group .hljs[class~="nimrod" i]:before .message-group .hljs[class~="nimrod" i]::before{content: var(--des-nimrod)}
-.message-group .hljs[class~="nim" i]:before .message-group .hljs[class~="nim" i]::before{content: var(--des-nimrod)}
-.message-group .hljs[class~="nix" i]:before .message-group .hljs[class~="nix" i]::before{content: var(--des-nix)}
-.message-group .hljs[class~="nixos" i]:before .message-group .hljs[class~="nixos" i]::before{content: var(--des-nix)}
-.message-group .hljs[class~="nsis" i]:before .message-group .hljs[class~="nsis" i]::before{content: var(--des-nsis)}
+.message-group .hljs[class~="n1ql" i]::before{content: var(--des-n1ql)}
+.message-group .hljs[class~="nginx" i]::before{content: var(--des-nginx)}
+.message-group .hljs[class~="nginxconf" i]::before{content: var(--des-nginx)}
+.message-group .hljs[class~="nimrod" i]::before{content: var(--des-nimrod)}
+.message-group .hljs[class~="nim" i]::before{content: var(--des-nimrod)}
+.message-group .hljs[class~="nix" i]::before{content: var(--des-nix)}
+.message-group .hljs[class~="nixos" i]::before{content: var(--des-nix)}
+.message-group .hljs[class~="nsis" i]::before{content: var(--des-nsis)}
 
 /***
  *       ____
@@ -384,16 +384,16 @@
  *
  */
 
- .message-group .hljs[class~="objectivec" i]:before .message-group .hljs[class~="objectivec" i]::before{content: var(--des-objectivec)}
- .message-group .hljs[class~="objc" i]:before .message-group .hljs[class~="objc" i]::before{content: var(--des-objectivec)}
- .message-group .hljs[class~="obj-c" i]:before .message-group .hljs[class~="obj-c" i]::before{content: var(--des-objectivec)}
- .message-group .hljs[class~="mm" i]:before .message-group .hljs[class~="mm" i]::before{content: var(--des-objectivec)}
- .message-group .hljs[class~="ocaml" i]:before .message-group .hljs[class~="ocaml" i]::before{content: var(--des-ocaml)}
- .message-group .hljs[class~="ml" i]:before .message-group .hljs[class~="ml" i]::before{content: var(--des-ocaml)}
- .message-group .hljs[class~="openscad" i]:before .message-group .hljs[class~="openscad" i]::before{content: var(--des-openscad)}
- .message-group .hljs[class~="scad" i]:before .message-group .hljs[class~="scad" i]::before{content: var(--des-openscad)}
-.message-group .hljs[class~="ruleslanguage" i]:before .message-group .hljs[class~="ruleslanguage" i]::before{content: var(--des-ruleslanguage)}
-.message-group .hljs[class~="oxygene" i]:before .message-group .hljs[class~="oxygene" i]::before{content: var(--des-oxygene)}
+ .message-group .hljs[class~="objectivec" i]::before{content: var(--des-objectivec)}
+ .message-group .hljs[class~="objc" i]::before{content: var(--des-objectivec)}
+ .message-group .hljs[class~="obj-c" i]::before{content: var(--des-objectivec)}
+ .message-group .hljs[class~="mm" i]::before{content: var(--des-objectivec)}
+ .message-group .hljs[class~="ocaml" i]::before{content: var(--des-ocaml)}
+ .message-group .hljs[class~="ml" i]::before{content: var(--des-ocaml)}
+ .message-group .hljs[class~="openscad" i]::before{content: var(--des-openscad)}
+ .message-group .hljs[class~="scad" i]::before{content: var(--des-openscad)}
+.message-group .hljs[class~="ruleslanguage" i]::before{content: var(--des-ruleslanguage)}
+.message-group .hljs[class~="oxygene" i]::before{content: var(--des-oxygene)}
 
 /***
  *      _____
@@ -406,38 +406,38 @@
  *
  */
 
- .message-group .hljs[class~="parser3" i]:before .message-group .hljs[class~="parser3" i]::before{content: var(--des-parser3)}
- .message-group .hljs[class~="pascal" i]:before .message-group .hljs[class~="pascal" i]::before{content: var(--des-pascal)}
- .message-group .hljs[class~="pas" i]:before .message-group .hljs[class~="pas" i]::before{content: var(--des-pascal)}
- .message-group .hljs[class~="freepascal" i]:before .message-group .hljs[class~="freepascal" i]::before{content: var(--des-pascal)}
- .message-group .hljs[class~="lazarus" i]:before .message-group .hljs[class~="lazarus" i]::before{content: var(--des-pascal)}
- .message-group .hljs[class~="lfm" i]:before .message-group .hljs[class~="lfm" i]::before{content: var(--des-pascal)}
- .message-group .hljs[class~="lpr" i]:before .message-group .hljs[class~="lpr" i]::before{content: var(--des-pascal)}
- .message-group .hljs[class~="perl" i]:before .message-group .hljs[class~="perl" i]::before{content: var(--des-perl)}
- .message-group .hljs[class~="pl" i]:before .message-group .hljs[class~="pl" i]::before{content: var(--des-perl)}
- .message-group .hljs[class~="pm" i]:before .message-group .hljs[class~="pm" i]::before{content: var(--des-perl)}
- .message-group .hljs[class~="pf" i]:before .message-group .hljs[class~="pf" i]::before{content: var(--des-pf)}
- .message-group .hljs[class~="php" i]:before .message-group .hljs[class~="php" i]::before{content: var(--des-php)}
- .message-group .hljs[class~="php3" i]:before .message-group .hljs[class~="php3" i]::before{content: var(--des-php)}
- .message-group .hljs[class~="php4" i]:before .message-group .hljs[class~="php4" i]::before{content: var(--des-php)}
- .message-group .hljs[class~="php5" i]:before .message-group .hljs[class~="php5" i]::before{content: var(--des-php)}
- .message-group .hljs[class~="php6" i]:before .message-group .hljs[class~="php6" i]::before{content: var(--des-php)}
- .message-group .hljs[class~="pony" i]:before .message-group .hljs[class~="pony" i]::before{content: var(--des-pony)}
- .message-group .hljs[class~="powershell" i]:before .message-group .hljs[class~="powershell" i]::before{content: var(--des-powershell)}
- .message-group .hljs[class~="ps" i]:before .message-group .hljs[class~="ps" i]::before{content: var(--des-powershell)}
- .message-group .hljs[class~="processing" i]:before .message-group .hljs[class~="processing" i]::before{content: var(--des-processing)}
- .message-group .hljs[class~="prolog" i]:before .message-group .hljs[class~="prolog" i]::before{content: var(--des-prolog)}
- .message-group .hljs[class~="plist" i]:before .message-group .hljs[class~="plist" i]::before{content: var(--des-plist)}
- .message-group .hljs[class~="protobuf" i]:before .message-group .hljs[class~="protobuf" i]::before{content: var(--des-protobuf)}
- .message-group .hljs[class~="puppet" i]:before .message-group .hljs[class~="puppet" i]::before{content: var(--des-puppet)}
- .message-group .hljs[class~="pp" i]:before .message-group .hljs[class~="pp" i]::before{content: var(--des-puppet)}
- .message-group .hljs[class~="purebasic" i]:before .message-group .hljs[class~="purebasic" i]::before{content: var(--des-purebasic)}
- .message-group .hljs[class~="pb" i]:before .message-group .hljs[class~="pb" i]::before{content: var(--des-purebasic)}
- .message-group .hljs[class~="pbi" i]:before .message-group .hljs[class~="pbi" i]::before{content: var(--des-purebasic)}
- .message-group .hljs[class~="python" i]:before .message-group .hljs[class~="python" i]::before{content: var(--des-python)}
- .message-group .hljs[class~="py" i]:before .message-group .hljs[class~="py" i]::before{content: var(--des-python)}
- .message-group .hljs[class~="gyp" i]:before .message-group .hljs[class~="gyp" i]::before{content: var(--des-python)}
- .message-group .hljs[class~="profile" i]:before .message-group .hljs[class~="profile" i]::before{content: var(--des-profile)}
+ .message-group .hljs[class~="parser3" i]::before{content: var(--des-parser3)}
+ .message-group .hljs[class~="pascal" i]::before{content: var(--des-pascal)}
+ .message-group .hljs[class~="pas" i]::before{content: var(--des-pascal)}
+ .message-group .hljs[class~="freepascal" i]::before{content: var(--des-pascal)}
+ .message-group .hljs[class~="lazarus" i]::before{content: var(--des-pascal)}
+ .message-group .hljs[class~="lfm" i]::before{content: var(--des-pascal)}
+ .message-group .hljs[class~="lpr" i]::before{content: var(--des-pascal)}
+ .message-group .hljs[class~="perl" i]::before{content: var(--des-perl)}
+ .message-group .hljs[class~="pl" i]::before{content: var(--des-perl)}
+ .message-group .hljs[class~="pm" i]::before{content: var(--des-perl)}
+ .message-group .hljs[class~="pf" i]::before{content: var(--des-pf)}
+ .message-group .hljs[class~="php" i]::before{content: var(--des-php)}
+ .message-group .hljs[class~="php3" i]::before{content: var(--des-php)}
+ .message-group .hljs[class~="php4" i]::before{content: var(--des-php)}
+ .message-group .hljs[class~="php5" i]::before{content: var(--des-php)}
+ .message-group .hljs[class~="php6" i]::before{content: var(--des-php)}
+ .message-group .hljs[class~="pony" i]::before{content: var(--des-pony)}
+ .message-group .hljs[class~="powershell" i]::before{content: var(--des-powershell)}
+ .message-group .hljs[class~="ps" i]::before{content: var(--des-powershell)}
+ .message-group .hljs[class~="processing" i]::before{content: var(--des-processing)}
+ .message-group .hljs[class~="prolog" i]::before{content: var(--des-prolog)}
+ .message-group .hljs[class~="plist" i]::before{content: var(--des-plist)}
+ .message-group .hljs[class~="protobuf" i]::before{content: var(--des-protobuf)}
+ .message-group .hljs[class~="puppet" i]::before{content: var(--des-puppet)}
+ .message-group .hljs[class~="pp" i]::before{content: var(--des-puppet)}
+ .message-group .hljs[class~="purebasic" i]::before{content: var(--des-purebasic)}
+ .message-group .hljs[class~="pb" i]::before{content: var(--des-purebasic)}
+ .message-group .hljs[class~="pbi" i]::before{content: var(--des-purebasic)}
+ .message-group .hljs[class~="python" i]::before{content: var(--des-python)}
+ .message-group .hljs[class~="py" i]::before{content: var(--des-python)}
+ .message-group .hljs[class~="gyp" i]::before{content: var(--des-python)}
+ .message-group .hljs[class~="profile" i]::before{content: var(--des-profile)}
 
 /***
  *       ____
@@ -450,11 +450,11 @@
  *
  */
 
-.message-group .hljs[class~="q" i]:before .message-group .hljs[class~="q" i]::before{content: var(--des-q)}
-.message-group .hljs[class~="k" i]:before .message-group .hljs[class~="k" i]::before{content: var(--des-q)}
-.message-group .hljs[class~="kdb" i]:before .message-group .hljs[class~="kdb" i]::before{content: var(--des-q)}
-.message-group .hljs[class~="qml" i]:before .message-group .hljs[class~="qml" i]::before{content: var(--des-qml)}
-.message-group .hljs[class~="qt" i]:before .message-group .hljs[class~="qt" i]::before{content: var(--des-qml)}
+.message-group .hljs[class~="q" i]::before{content: var(--des-q)}
+.message-group .hljs[class~="k" i]::before{content: var(--des-q)}
+.message-group .hljs[class~="kdb" i]::before{content: var(--des-q)}
+.message-group .hljs[class~="qml" i]::before{content: var(--des-qml)}
+.message-group .hljs[class~="qt" i]::before{content: var(--des-qml)}
 
 /***
  *      _____
@@ -467,18 +467,18 @@
  *
  */
 
- .message-group .hljs[class~="r" i]:before .message-group .hljs[class~="r" i]::before{content: var(--des-r)}
- .message-group .hljs[class~="rib" i]:before .message-group .hljs[class~="rib" i]::before{content: var(--des-rib)}
- .message-group .hljs[class~="rsl" i]:before .message-group .hljs[class~="rsl" i]::before{content: var(--des-rsl)}
- .message-group .hljs[class~="roboconf" i]:before .message-group .hljs[class~="roboconf" i]::before{content: var(--des-roboconf)}
- .message-group .hljs[class~="graph" i]:before .message-group .hljs[class~="graph" i]::before{content: var(--des-roboconf)}
- .message-group .hljs[class~="instances" i]:before .message-group .hljs[class~="instances" i]::before{content: var(--des-roboconf)}
- .message-group .hljs[class~="rss" i]:before .message-group .hljs[class~="rss" i]::before{content: var(--des-rss)}
- .message-group .hljs[class~="ruby" i]:before .message-group .hljs[class~="ruby" i]::before{content: var(--des-ruby)}
- .message-group .hljs[class~="rb" i]:before .message-group .hljs[class~="rb" i]::before{content: var(--des-ruby)}
-.message-group .hljs[class~="gemspec" i]:before .message-group .hljs[class~="gemspec" i]::before{content: var(--des-gemspec)}
-.message-group .hljs[class~="rust" i]:before .message-group .hljs[class~="rust" i]::before{content: var(--des-rust)}
-.message-group .hljs[class~="rs" i]:before .message-group .hljs[class~="rs" i]::before{content: var(--des-rust)}
+ .message-group .hljs[class~="r" i]::before{content: var(--des-r)}
+ .message-group .hljs[class~="rib" i]::before{content: var(--des-rib)}
+ .message-group .hljs[class~="rsl" i]::before{content: var(--des-rsl)}
+ .message-group .hljs[class~="roboconf" i]::before{content: var(--des-roboconf)}
+ .message-group .hljs[class~="graph" i]::before{content: var(--des-roboconf)}
+ .message-group .hljs[class~="instances" i]::before{content: var(--des-roboconf)}
+ .message-group .hljs[class~="rss" i]::before{content: var(--des-rss)}
+ .message-group .hljs[class~="ruby" i]::before{content: var(--des-ruby)}
+ .message-group .hljs[class~="rb" i]::before{content: var(--des-ruby)}
+.message-group .hljs[class~="gemspec" i]::before{content: var(--des-gemspec)}
+.message-group .hljs[class~="rust" i]::before{content: var(--des-rust)}
+.message-group .hljs[class~="rs" i]::before{content: var(--des-rust)}
 
 /***
  *       _____
@@ -491,32 +491,32 @@
  *
  */
 
- .message-group .hljs[class~="scala" i]:before .message-group .hljs[class~="scala" i]::before{content: var(--des-scala)}
- .message-group .hljs[class~="scheme" i]:before .message-group .hljs[class~="scheme" i]::before{content: var(--des-scheme)}
- .message-group .hljs[class~="scilab" i]:before .message-group .hljs[class~="scilab" i]::before{content: var(--des-scilab)}
- .message-group .hljs[class~="sci" i]:before .message-group .hljs[class~="sci" i]::before{content: var(--des-scilab)}
- .message-group .hljs[class~="scss" i]:before .message-group .hljs[class~="scss" i]::before{content: var(--des-scss)}
- .message-group .hljs[class~="shell" i]:before .message-group .hljs[class~="shell" i]::before{content: var(--des-shell)}
- .message-group .hljs[class~="console" i]:before .message-group .hljs[class~="console" i]::before{content: var(--des-shell)}
- .message-group .hljs[class~="smali" i]:before .message-group .hljs[class~="smali" i]::before{content: var(--des-smali)}
- .message-group .hljs[class~="smalltalk" i]:before .message-group .hljs[class~="smalltalk" i]::before{content: var(--des-smalltalk)}
- .message-group .hljs[class~="st" i]:before .message-group .hljs[class~="st" i]::before{content: var(--des-smalltalk)}
- .message-group .hljs[class~="sml" i]:before .message-group .hljs[class~="sml" i]::before{content: var(--des-sml)}
- .message-group .hljs[class~="ml" i]:before .message-group .hljs[class~="ml" i]::before{content: var(--des-sml)}
- .message-group .hljs[class~="sqf" i]:before .message-group .hljs[class~="sqf" i]::before{content: var(--des-sqf)}
- .message-group .hljs[class~="sql" i]:before .message-group .hljs[class~="sql" i]::before{content: var(--des-sql)}
- .message-group .hljs[class~="stan" i]:before .message-group .hljs[class~="stan" i]::before{content: var(--des-stan)}
- .message-group .hljs[class~="stata" i]:before .message-group .hljs[class~="stata" i]::before{content: var(--des-stata)}
- .message-group .hljs[class~="do" i]:before .message-group .hljs[class~="do" i]::before{content: var(--des-stata)}
- .message-group .hljs[class~="ado" i]:before .message-group .hljs[class~="ado" i]::before{content: var(--des-stata)}
- .message-group .hljs[class~="step21" i]:before .message-group .hljs[class~="step21" i]::before{content: var(--des-step21)}
- .message-group .hljs[class~="step" i]:before .message-group .hljs[class~="step" i]::before{content: var(--des-step21)}
- .message-group .hljs[class~="stp" i]:before .message-group .hljs[class~="stp" i]::before{content: var(--des-step21)}
- .message-group .hljs[class~="p21" i]:before .message-group .hljs[class~="p21" i]::before{content: var(--des-step21)}
- .message-group .hljs[class~="stylus" i]:before .message-group .hljs[class~="stylus" i]::before{content: var(--des-stylus)}
- .message-group .hljs[class~="styl" i]:before .message-group .hljs[class~="styl" i]::before{content: var(--des-stylus)}
- .message-group .hljs[class~="subunit" i]:before .message-group .hljs[class~="subunit" i]::before{content: var(--des-subunit)}
- .message-group .hljs[class~="swift" i]:before .message-group .hljs[class~="swift" i]::before{content: var(--des-swift)}
+ .message-group .hljs[class~="scala" i]::before{content: var(--des-scala)}
+ .message-group .hljs[class~="scheme" i]::before{content: var(--des-scheme)}
+ .message-group .hljs[class~="scilab" i]::before{content: var(--des-scilab)}
+ .message-group .hljs[class~="sci" i]::before{content: var(--des-scilab)}
+ .message-group .hljs[class~="scss" i]::before{content: var(--des-scss)}
+ .message-group .hljs[class~="shell" i]::before{content: var(--des-shell)}
+ .message-group .hljs[class~="console" i]::before{content: var(--des-shell)}
+ .message-group .hljs[class~="smali" i]::before{content: var(--des-smali)}
+ .message-group .hljs[class~="smalltalk" i]::before{content: var(--des-smalltalk)}
+ .message-group .hljs[class~="st" i]::before{content: var(--des-smalltalk)}
+ .message-group .hljs[class~="sml" i]::before{content: var(--des-sml)}
+ .message-group .hljs[class~="ml" i]::before{content: var(--des-sml)}
+ .message-group .hljs[class~="sqf" i]::before{content: var(--des-sqf)}
+ .message-group .hljs[class~="sql" i]::before{content: var(--des-sql)}
+ .message-group .hljs[class~="stan" i]::before{content: var(--des-stan)}
+ .message-group .hljs[class~="stata" i]::before{content: var(--des-stata)}
+ .message-group .hljs[class~="do" i]::before{content: var(--des-stata)}
+ .message-group .hljs[class~="ado" i]::before{content: var(--des-stata)}
+ .message-group .hljs[class~="step21" i]::before{content: var(--des-step21)}
+ .message-group .hljs[class~="step" i]::before{content: var(--des-step21)}
+ .message-group .hljs[class~="stp" i]::before{content: var(--des-step21)}
+ .message-group .hljs[class~="p21" i]::before{content: var(--des-step21)}
+ .message-group .hljs[class~="stylus" i]::before{content: var(--des-stylus)}
+ .message-group .hljs[class~="styl" i]::before{content: var(--des-stylus)}
+ .message-group .hljs[class~="subunit" i]::before{content: var(--des-subunit)}
+ .message-group .hljs[class~="swift" i]::before{content: var(--des-swift)}
 
 /***
  *      _______
@@ -529,18 +529,18 @@
  *
  */
 
-.message-group .hljs[class~="thor" i]:before .message-group .hljs[class~="thor" i]::before{content: var(--des-thor)}
-.message-group .hljs[class~="taggerscript" i]:before .message-group .hljs[class~="taggerscript" i]::before{content: var(--des-taggerscript)}
-.message-group .hljs[class~="tap" i]:before .message-group .hljs[class~="tap" i]::before{content: var(--des-tap)}
-.message-group .hljs[class~="tcl" i]:before .message-group .hljs[class~="tcl" i]::before{content: var(--des-tcl)}
-.message-group .hljs[class~="tk" i]:before .message-group .hljs[class~="tk" i]::before{content: var(--des-tcl)}
-.message-group .hljs[class~="tex" i]:before .message-group .hljs[class~="tex" i]::before{content: var(--des-tex)}
-.message-group .hljs[class~="thrift" i]:before .message-group .hljs[class~="thrift" i]::before{content: var(--des-thrift)}
-.message-group .hljs[class~="tp" i]:before .message-group .hljs[class~="tp" i]::before{content: var(--des-tp)}
-.message-group .hljs[class~="twig" i]:before .message-group .hljs[class~="twig" i]::before{content: var(--des-twig)}
-.message-group .hljs[class~="craftcms" i]:before .message-group .hljs[class~="craftcms" i]::before{content: var(--des-twig)}
-.message-group .hljs[class~="typescript" i]:before .message-group .hljs[class~="typescript" i]::before{content: var(--des-typescript)}
-.message-group .hljs[class~="ts" i]:before .message-group .hljs[class~="ts" i]::before{content: var(--des-typescript)}
+.message-group .hljs[class~="thor" i]::before{content: var(--des-thor)}
+.message-group .hljs[class~="taggerscript" i]::before{content: var(--des-taggerscript)}
+.message-group .hljs[class~="tap" i]::before{content: var(--des-tap)}
+.message-group .hljs[class~="tcl" i]::before{content: var(--des-tcl)}
+.message-group .hljs[class~="tk" i]::before{content: var(--des-tcl)}
+.message-group .hljs[class~="tex" i]::before{content: var(--des-tex)}
+.message-group .hljs[class~="thrift" i]::before{content: var(--des-thrift)}
+.message-group .hljs[class~="tp" i]::before{content: var(--des-tp)}
+.message-group .hljs[class~="twig" i]::before{content: var(--des-twig)}
+.message-group .hljs[class~="craftcms" i]::before{content: var(--des-twig)}
+.message-group .hljs[class~="typescript" i]::before{content: var(--des-typescript)}
+.message-group .hljs[class~="ts" i]::before{content: var(--des-typescript)}
 
 /***
  *      _    _
@@ -564,18 +564,18 @@
  *
  */
 
- .message-group .hljs[class~="vala" i]:before .message-group .hljs[class~="vala" i]::before{content: var(--des-vala)}
- .message-group .hljs[class~="vbnet" i]:before .message-group .hljs[class~="vbnet" i]::before{content: var(--des-vbnet)}
- .message-group .hljs[class~="vb" i]:before .message-group .hljs[class~="vb" i]::before{content: var(--des-vbnet)}
- .message-group .hljs[class~="vbscript" i]:before .message-group .hljs[class~="vbscript" i]::before{content: var(--des-vbscript)}
- .message-group .hljs[class~="vbs" i]:before .message-group .hljs[class~="vbs" i]::before{content: var(--des-vbscript)}
- .message-group .hljs[class~="vbscript-html" i]:before .message-group .hljs[class~="vbscript-html" i]::before{content: var(--des-vbscript-html)}
- .message-group .hljs[class~="verilog" i]:before .message-group .hljs[class~="verilog" i]::before{content: var(--des-verilog)}
- .message-group .hljs[class~="v" i]:before .message-group .hljs[class~="v" i]::before{content: var(--des-verilog)}
- .message-group .hljs[class~="sv" i]:before .message-group .hljs[class~="sv" i]::before{content: var(--des-verilog)}
- .message-group .hljs[class~="svh" i]:before .message-group .hljs[class~="svh" i]::before{content: var(--des-verilog)}
- .message-group .hljs[class~="vhdl" i]:before .message-group .hljs[class~="vhdl" i]::before{content: var(--des-vhdl)}
- .message-group .hljs[class~="vim" i]:before .message-group .hljs[class~="vim" i]::before{content: var(--des-vim)}
+ .message-group .hljs[class~="vala" i]::before{content: var(--des-vala)}
+ .message-group .hljs[class~="vbnet" i]::before{content: var(--des-vbnet)}
+ .message-group .hljs[class~="vb" i]::before{content: var(--des-vbnet)}
+ .message-group .hljs[class~="vbscript" i]::before{content: var(--des-vbscript)}
+ .message-group .hljs[class~="vbs" i]::before{content: var(--des-vbscript)}
+ .message-group .hljs[class~="vbscript-html" i]::before{content: var(--des-vbscript-html)}
+ .message-group .hljs[class~="verilog" i]::before{content: var(--des-verilog)}
+ .message-group .hljs[class~="v" i]::before{content: var(--des-verilog)}
+ .message-group .hljs[class~="sv" i]::before{content: var(--des-verilog)}
+ .message-group .hljs[class~="svh" i]::before{content: var(--des-verilog)}
+ .message-group .hljs[class~="vhdl" i]::before{content: var(--des-vhdl)}
+ .message-group .hljs[class~="vim" i]::before{content: var(--des-vim)}
 
 /***
  *     __          __
@@ -599,15 +599,15 @@
  *
  */
 
- .message-group .hljs[class~="x86asm" i]:before .message-group .hljs[class~="x86asm" i]::before{content: var(--des-x86asm)}
- .message-group .hljs[class~="xl" i]:before .message-group .hljs[class~="xl" i]::before{content: var(--des-xl)}
- .message-group .hljs[class~="tao" i]:before .message-group .hljs[class~="tao" i]::before{content: var(--des-xl)}
- .message-group .hljs[class~="xquery" i]:before .message-group .hljs[class~="xquery" i]::before{content: var(--des-xquery)}
- .message-group .hljs[class~="xq xpath" i]:before .message-group .hljs[class~="xq xpath" i]::before{content: var(--des-xquery)}
- .message-group .hljs[class~="xhtml" i]:before .message-group .hljs[class~="xhtml" i]::before{content: var(--des-xhtml)}
- .message-group .hljs[class~="xml" i]:before .message-group .hljs[class~="xml" i]::before{content: var(--des-xml)}
- .message-group .hljs[class~="xsd" i]:before .message-group .hljs[class~="xsd" i]::before{content: var(--des-xsd)}
- .message-group .hljs[class~="xsl" i]:before .message-group .hljs[class~="xsl" i]::before{content: var(--des-xsl)}
+ .message-group .hljs[class~="x86asm" i]::before{content: var(--des-x86asm)}
+ .message-group .hljs[class~="xl" i]::before{content: var(--des-xl)}
+ .message-group .hljs[class~="tao" i]::before{content: var(--des-xl)}
+ .message-group .hljs[class~="xquery" i]::before{content: var(--des-xquery)}
+ .message-group .hljs[class~="xq xpath" i]::before{content: var(--des-xquery)}
+ .message-group .hljs[class~="xhtml" i]::before{content: var(--des-xhtml)}
+ .message-group .hljs[class~="xml" i]::before{content: var(--des-xml)}
+ .message-group .hljs[class~="xsd" i]::before{content: var(--des-xsd)}
+ .message-group .hljs[class~="xsl" i]::before{content: var(--des-xsl)}
 
 /***
  *     __     __
@@ -620,8 +620,8 @@
  *
  */
 
- .message-group .hljs[class~="yaml" i]:before .message-group .hljs[class~="yaml" i]::before{content: var(--des-yaml)}
- .message-group .hljs[class~="yml" i]:before .message-group .hljs[class~="yml" i]::before{content: var(--des-yaml)}
+ .message-group .hljs[class~="yaml" i]::before{content: var(--des-yaml)}
+ .message-group .hljs[class~="yml" i]::before{content: var(--des-yaml)}
 
 /***
  *      ______
@@ -634,5 +634,5 @@
  *
  */
 
- .message-group .hljs[class~="zephir" i]:before .message-group .hljs[class~="zephir" i]::before{content: var(--des-zephir)}
- .message-group .hljs[class~="zep" i]:before .message-group .hljs[class~="zep" i]::before{content: var(--des-zephir)}
+ .message-group .hljs[class~="zephir" i]::before{content: var(--des-zephir)}
+ .message-group .hljs[class~="zep" i]::before{content: var(--des-zephir)}
