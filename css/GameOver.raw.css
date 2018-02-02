@@ -145,6 +145,7 @@ body:before {
 [class*="channels-"] > [class*="flex-"] > [class*="scrollerWrap-"],
 
 /* Chat */
+.search-results-wrap,
 .typing-3eiiL_ ,
 .messages-wrapper,
 .messages-wrapper .scroller-wrap,
@@ -585,6 +586,36 @@ div[class*="statusOnline-"]  {
 	background: rgba(var(--badgecolor), 0.0980392);
 
 }
+
+/* Search */
+
+.search-results-wrap > .scrollerWrap-2uBjct {
+	background: rgba(0,0,0,.6) !important;
+}
+
+.search-result:after,
+.search-result:before {
+	content: none !important;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+	background: rgba(0,0,0,.4);
+	border-radius: 5px !important;
+}
+
+.search-result.expanded {
+	border: none !important;
+}
+
+.theme-dark .search-results-wrap .search-result .hit {
+	box-shadow: none;
+	background: rgba(0,0,0,0);
+	border: none !important;
+}
+
+.search-header {
+	background: rgba(0,0,0,.7) !important;
+}
+
 
 /***
  *      _____  _             _          _____                              _
