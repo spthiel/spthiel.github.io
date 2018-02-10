@@ -566,8 +566,8 @@ div[class*="statusOnline-"]  {
 
 /* Nice ppl */
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="221087028995948546"],[style*="142410465027293184"],[style*="291600217726517248"],[style*="233611560545812480"]) ~ .comment .message h2 span.username-wrapper::after,
-.channel-members .member .avatar-small:-webkit-any([style*="221087028995948546"],[style*="142410465027293184"],[style*="291600217726517248"],[style*="233611560545812480"]) ~ .member-inner .member-username .member-username-inner::after {
+.message-group:not(.compact) .avatar-large:-webkit-any([style*="329114760660385794"],[style*="221087028995948546"],[style*="142410465027293184"],[style*="291600217726517248"],[style*="233611560545812480"]) ~ .comment .message h2 span.username-wrapper::after,
+.channel-members .member .avatar-small:-webkit-any([style*="329114760660385794"],[style*="221087028995948546"],[style*="142410465027293184"],[style*="291600217726517248"],[style*="233611560545812480"]) ~ .member-inner .member-username .member-username-inner::after {
 	content: "Nice person";
 	--badgecolor: 255, 255, 255;
 	border-color: rgb(var(--badgecolor));
