@@ -2,7 +2,7 @@
 <html>
 <body>
 <?php
-if ($handle = opendir('.')) {
+if ($handle = opendir('./css')) {
     while (false !== ($entry = readdir($handle))) {
         if ($entry != "." && $entry != "..") {
             echo '<a href="/'.$entry.'">Link to file '.$entry.'</a><br>';
