@@ -1,4 +1,15 @@
 
+.private-channel-call {
+    background: transparent !important;
+}
+.private-channel-call > div {
+    background: rgba(0,0,0,.8);
+}
+
+.textArea-20yzAH {
+	max-height: calc(12*1.3em);
+}
+
 body:before {
 	content: ' ';
 	position: absolute;
@@ -222,11 +233,11 @@ body:before {
  *
  */
 
- .guilds-add > .guilds-add-inner {
+:not(.guilds-wrapper.DSAC-styled) .guilds-add > .guilds-add-inner {
  	font-size: 0 !important;
  }
 
-.guilds-add:before {
+:not(.guilds-wrapper.DSAC-styled) .guilds-add:before {
 	content: 'add';
 	position: relative;
 	width: 100%;
@@ -238,17 +249,17 @@ body:before {
 	text-transform: uppercase;
 }
 
-.guilds-add:hover:before {
+:not(.guilds-wrapper.DSAC-styled) .guilds-add:hover:before {
 	content: 'click';
 	font-size: 15px;
 	bottom: 6px;
 }
 
- .guilds-wrapper > div > div > .dms {
+.guilds-wrapper:not(.DSAC-styled) > div > div > .dms {
    transition: 0.4s ;
  }
 
- .guilds-wrapper:not(:hover) > div > div > .guild:not(.unread):not(:first-child):not([id="bd-pub-li"]){
+.guilds-wrapper:not(.DSAC-styled):not(:hover) > div > div > .guild:not(.unread):not(:first-child):not([id="bd-pub-li"]){
      opacity: 0 ;
      height: 0 ;
 	 margin-top: 0;
@@ -256,19 +267,19 @@ body:before {
      transition-delay: 0.3s ;
  }
 
- .guilds-wrapper > div > div > .guild{
+ .guilds-wrapper:not(.DSAC-styled) > div > div > .guild{
      opacity: 0.8 ;
 	 margin-top: 0;
 	 transition: height 0.4s, opacity 0.4s, margin 0.4s;
  }
 
- .guilds-wrapper .guilds .guild:not(:first-child) .guild-inner:hover .avatar-small{
+ .guilds-wrapper:not(.DSAC-styled) .guilds .guild:not(:first-child) .guild-inner:hover .avatar-small{
    color: black;
    font-weight: 500;
    transition: 0.4s;
  }
 
- .guilds-wrapper .guilds .guild:not(:first-child) .guild-inner .avatar-small{
+ .guilds-wrapper:not(.DSAC-styled) .guilds .guild:not(:first-child) .guild-inner .avatar-small{
    color: black;
    font-weight: bold;
    transition: 0.4s;
@@ -276,7 +287,7 @@ body:before {
  }
 
 
- .guild.unread::before{
+ :not(.guilds-wrapper.DSAC-styled) .guild.unread::before{
  	background: transparent ;
  }
 
@@ -864,4 +875,106 @@ div[class*="statusOnline-"]  {
   margin-top: 0px !important;
   margin-bottom: 4px;
 
+}
+
+/* DSAC */
+
+/*
+
+:not([class*="Voice"]).icon-3tVJnl .background-2nyTH_,
+:not([class*="Voice"]).icon-3tVJnl ~ .foreground-2zy1hc {
+	stroke-width: 1;
+}
+
+.icon-3tVJnl,
+.foreground-2zy1hc,
+.background-2nyTH_ {
+	opacity: 1;
+}
+
+.container-hidden .colorDefaultText-2v6rRX,
+.container-hidden .colorDefaultVoice-1x4dEl {
+	color: rgb(98,98,255);
+	stroke: rgb(98,98,255);
+}
+.colorHoveredText-1CsxK1,
+.colorHoveredVoice-1P3kui {
+	color: white;
+	stroke: white;
+	stroke-width: 2 !important;
+}
+
+.channels-3g2vYe:hover {
+	min-width: 240px;
+}
+.colorDefaultText-2v6rRX,
+.colorDefaultVoice-1x4dEl {
+	color: white;
+	stroke: white;
+}
+
+.colorUnreadText-1KwCnP,
+.colorUnreadVoice-1Ztv9I {
+	color: rgb(255,98,98);
+	stroke: rgb(255,98,98);
+}
+
+.colorLockedText-2onHWv,
+.colorLockedVoice-2VCSgk{
+	color: rgb(98,98,255);
+	stroke: rgb(98,98,255);
+}
+
+.colorSelectedVoice-ieXC3Z,
+.colorSelectedText-3YhFC6 {
+	color: rgb(255,255,0);
+	stroke: rgb(255,255,0);
+}
+
+.colorMutedText-2DBGZ2 {
+	color: rgb(20,20,20);
+	stroke: rgb(20,20,20);;
+}
+*/
+
+/* .guilds-wrapper.DSAC-styled */
+
+
+
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):before {
+	content: "";
+	-webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" ><path fill="currentColor" stroke="currentColor" stroke-width="0.7" d="M2.27333333,12 L2.74666667,9.33333333 L0.08,9.33333333 L0.313333333,8 L2.98,8 L3.68666667,4 L1.02,4 L1.25333333,2.66666667 L3.92,2.66666667 L4.39333333,0 L5.72666667,0 L5.25333333,2.66666667 L9.25333333,2.66666667 L9.72666667,0 L11.06,0 L10.5866667,2.66666667 L13.2533333,2.66666667 L13.02,4 L10.3533333,4 L9.64666667,8 L12.3133333,8 L12.08,9.33333333 L9.41333333,9.33333333 L8.94,12 L7.60666667,12 L8.08,9.33333333 L4.08,9.33333333 L3.60666667,12 L2.27333333,12 L2.27333333,12 Z M5.02,4 L4.31333333,8 L8.31333333,8 L9.02,4 L5.02,4 L5.02,4 Z"></path></svg>');
+	-webkit-mask-size: 100%;
+	-webkit-mask-position: 100%;
+  	-webkit-mask-repeat: no-repeat;
+
+	position: absolute;
+	top: 8px;
+	margin: 0;
+	border-radius: 0;
+	height: 20px;
+	width: 20px;
+	left: 5px;
+	opacity: 1;
+	transition: .7s;
+}
+
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).unread:before {
+	background-color: rgb(255,98,98);
+}
+
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):before {
+	background-color: white;
+}
+
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).selected:before {
+	background-color: rgb(255,255,0);
+}
+
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).selected.unread:before {
+	background-color: #ff8000;
+}
+
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child) .guild-inner{
+	margin-left: 23px;
 }
