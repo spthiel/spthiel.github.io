@@ -913,6 +913,6 @@ div[class*="statusOnline-"]  {
 	background-color: #ff8000;
 }
 
-.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child) .guild-inner{
+.guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):not(.guild-sorter) .guild-inner{
 	margin-left: 23px;
 }
