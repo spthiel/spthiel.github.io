@@ -1,4 +1,46 @@
 
+:root {
+	--version-now: 1;
+}
+
+.app:after {
+	content: "You're running an old version of the GameOver theme. Please update.";
+	position: relative;
+	font-size:20px;
+	background-color: rgba(0,0,0,.5);
+
+	--multi: calc( (var(--version-now) - var(--version)));
+
+	padding: calc(var(--multi) * 4px);
+	height: calc(var(--multi) * 1rem);
+	color: rgba(255,255,255,calc(var(--multi) * 1));
+	max-width: calc((var(--version-now) - var(--version)) / (var(--version-now) - var(--version)) * 100%);
+	z-index: 1000;
+}
+
+.private-channel-call {
+    background: transparent !important;
+}
+.private-channel-call > div {
+    background: rgba(0,0,0,.8);
+}
+
+.textArea-20yzAH {
+	max-height: calc(12*1.3em);
+}
+
+
+#app-mount::after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -101;
+	background-size: cover;
+}
+
 .private-channel-call {
     background: transparent !important;
 }
