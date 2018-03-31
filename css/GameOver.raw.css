@@ -940,6 +940,10 @@ div[class*="statusOnline-"]  {
 	transition: .7s;
 }
 
+.guilds-wrapper.DSAC-styled .guild-separator {
+	height: 2px;
+}
+
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).unread:before {
 	background-color: rgb(255,98,98);
 }
