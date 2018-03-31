@@ -374,35 +374,47 @@ div.mask-2vyqAW, div.maskProfile-MeBve8{
 }
 
 .status-typing{
-  border: 5px solid !important;
   border-color: hsl(0, 100%, 50%) !important;
   animation: rainbow 4s infinite linear !important;
 }
 
 div[class*="popout-"] > div [class*="avatarStatus-"]{
-  margin: 0 0 0 0 !important;
-  position: relative !important;
-  right: 10px !important;
+  margin: 0;
+  position: relative;
+  right: 10px;
   top: -100px;
-  height: 94px !important;
-  width: 94px !important;
-  border-radius: 50% !important;
-  background-color: transparent !important;
-  border-width: 8px !important;
-  border-style: solid !important;
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-width: 8px;
+  border-style: solid;
 }
 
-.avatar-small .status{
-  margin: 0 0 0 0 !important;
+.avatar-small .status {
+  margin: 0;
   right: 2px !important;
   top: -2px;
-  position: relative !important;
+  position: relative;
   height: 30px !important;
   width: 30px !important;
-  border-radius: 50% !important;
-  background-color: transparent !important;
-  border-width: 2px !important;
-  border-style: solid !important;
+  border-radius: 50%;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.avatar-1BXaQj.small-TEeAkX .status-2Devx1 {
+	  margin: 0 0 0 0;
+	  right: 2px;
+	  top: -32px;
+	  position: relative;
+	  height: 30px;
+	  width: 30px;
+	  border-radius: 50%;
+	  background-color: transparent;
+	  border-width: 2px;
+	  border-style: solid;
 }
 
 .avatar-small .status-streaming,
