@@ -128,10 +128,12 @@ body:before {
 	 background-color: rgba(0,0,0,.7);
  }
 
- /* Channel members */
-.channel-members-wrap {
-	background-color: rgba(0,0,0, .45);
-}
+ /* Channel members*/
+ .scroller-fzNley.members-1bid1J,
+ .channel-members-wrap {
+    background-color: rgba(0,0,0, .45);
+ }
+
  /* Chat */
 #friends > .friends-table,
 .chat .content > .flex-spacer {
