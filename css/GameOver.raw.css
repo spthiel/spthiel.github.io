@@ -1018,3 +1018,14 @@ div[class*="statusOnline-"]  {
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):not(.guild-sorter):not(#bd-pub-li) a {
 	margin-left: 23px;
 }
+
+/* Compact guilds */
+.compactguilds .guilds-wrapper {
+	background: rgb(20,20,20);
+}
+
+.compactguilds .private-channels > [class*="scrollerWrap-"],
+.compactguilds [class*="channels-"] > [class*="flex-"] > [class*="scrollerWrap-"] > [class*="scroller-"],
+.compactguilds [class*="channels-"] > [class*="container-"]  {
+	background: rgb(10,10,10);
+}
