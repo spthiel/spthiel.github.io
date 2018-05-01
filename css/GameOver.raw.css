@@ -1,21 +1,21 @@
 
 :root {
-	--version-now: 1;
+  --version-now: 1;
 }
 
 .app:after {
-	content: "You're running an old version of the GameOver theme. Please update.";
-	position: relative;
-	font-size:20px;
-	background-color: rgba(0,0,0,.5);
+  content: "You're running an old version of the GameOver theme. Please update.";
+  position: relative;
+  font-size:20px;
+  background-color: rgba(0,0,0,.5);
 
-	--multi: calc( (var(--version-now) - var(--version)));
+  --multi: calc( (var(--version-now) - var(--version)));
 
-	padding: calc(var(--multi) * 4px);
-	height: calc(var(--multi) * 1rem);
-	color: rgba(255,255,255,calc(var(--multi) * 1));
-	max-width: calc((var(--version-now) - var(--version)) / (var(--version-now) - var(--version)) * 100%);
-	z-index: 1000;
+  padding: calc(var(--multi) * 4px);
+  height: calc(var(--multi) * 1rem);
+  color: rgba(255,255,255,calc(var(--multi) * 1));
+  max-width: calc((var(--version-now) - var(--version)) / (var(--version-now) - var(--version)) * 100%);
+  z-index: 1000;
 }
 
 .private-channel-call {
@@ -25,20 +25,20 @@
     background: rgba(0,0,0,.8);
 }
 
-.textArea-20yzAH {
-	max-height: calc(12*1.3em);
+.textArea-2Spzkt {
+  max-height: calc(12*1.3em);
 }
 
 
 #app-mount::after {
-	content: ' ';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -101;
-	background-size: cover;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -101;
+  background-size: cover;
 }
 
 .private-channel-call {
@@ -48,38 +48,38 @@
     background: rgba(0,0,0,.8);
 }
 
-.textArea-20yzAH {
-	max-height: calc(12*1.3em);
+.textArea-2Spzkt {
+  max-height: calc(12*1.3em);
 }
 
 body:before {
-	content: ' ';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background: radial-gradient(rgb(70,70,70) , rgb(40,40,40) 80%, rgb(20,20,20) 100%);
-	background-size: cover;
-	background-position: center;
-	z-index: -100;
-	opacity: 0.97;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(rgb(70,70,70) , rgb(40,40,40) 80%, rgb(20,20,20) 100%);
+  background-size: cover;
+  background-position: center;
+  z-index: -100;
+  opacity: 0.97;
 }
 
 #app-mount:before {
-	content: 'GAME OVER';
-	font-family: 'Press Start 2P';
-	position: absolute;
-	width: 100%;
-	height: 100vh;
-	line-height: 100vh;
-	text-align: center;
-	font-size: 80px;
-	z-index: -99;
-	background: -webkit-linear-gradient(#c00 45%, #00f 55% );
-	-webkit-background-clip: text;
-	color: transparent;
-	text-shadow: -2px -2px 0px rgba(0,0,0,.8);
+  content: 'GAME OVER';
+  font-family: 'Press Start 2P';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 80px;
+  z-index: -99;
+  background: -webkit-linear-gradient(#c00 45%, #00f 55% );
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: -2px -2px 0px rgba(0,0,0,.8);
 }
 
 /***
@@ -96,62 +96,62 @@ body:before {
 /* In Chat objects */
 .message-group .comment .markup pre,
 .inline {
-	background: rgba(0,0,0,.5) !important;
-	border: 0 solid black !important;
-	border-radius: 5px !important;
+  background: rgba(0,0,0,.5) !important;
+  border: 0 solid black !important;
+  border-radius: 5px !important;
 }
 
 .message-group .comment .markup pre code {
-	border-color: transparent;
-	background: transparent !important;
+  border-color: transparent;
+  background: transparent !important;
 }
 
-.embedPill-3sYS1X {
-	width: 5px;
+.embedPill-1Zntps {
+  width: 5px;
 }
 
-.embedInner-t4ag7g {
-	border: 0;
+.embedInner-1-fpTo {
+  border: 0;
 }
 
 /* Input bar */
 
 .channelTextArea-1LDbYG > .inner-zqa7da,
 .autocompleteInner-N7OQf1,
-.autocompleteInner-zh20B_ {
-	background-color: rgb(10,10,10) !important;
+.autocompleteRow-31UJBI {
+  background-color: rgb(10,10,10) !important;
 }
 
 /* Title Bar */
- .titleBar-3_fDwJ {
-	 margin-top: 0;
-	 padding-top: 4px;
-	 background-color: rgba(0,0,0,.7);
+ .titleBar-AC4pGV {
+   margin-top: 0;
+   padding-top: 4px;
+   background-color: rgba(0,0,0,.7);
  }
 
  /* Channel members */
- .scroller-fzNley.members-1bid1J,
+ .scroller-2FKFPG.members-1998pB,
  .members-1998pB,
-.membersWrap-3wRngy .scroller-wrap .members-1bid1J {
-	background-color: rgba(0,0,0, .45) !important;
+.membersWrap-2h-GB4 .scroller-wrap .members-1998pB {
+  background-color: rgba(0,0,0, .45) !important;
 }
 
  /* Chat */
 #friends > .friends-table,
 .chat .content > .flex-spacer {
-	background: rgba(0,0,0,.6);
+  background: rgba(0,0,0,.6);
 }
 
 #friends > .friends-table {
-	margin-top: 0;
-	padding-top: 20px;
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 /* Channels */
 .private-channels > [class*="scrollerWrap-"],
 [class*="channels-"] > [class*="flex-"] > [class*="scrollerWrap-"] > [class*="scroller-"],
 [class*="channels-"] > [class*="container-"] {
-	background-color: rgba(0,0,0, .3);
+  background-color: rgba(0,0,0, .3);
 }
 
 /* Headers */
@@ -160,59 +160,59 @@ body:before {
 [class*="flexChild"] > [class*="container-"] > [class*="header-"],
 #friends > [class*="flex"],
 .chat > [class*="titleWrapper-"] > [class*="flex-"] {
-	background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.7);
 }
 
 /* Guild scroller */
 
 .guilds-wrapper {
-	background: rgba(0,0,0, .1);
+  background: rgba(0,0,0, .1);
 }
 
 /* Settings */
 
 .ui-standard-sidebar-view .sidebar-region{
-	background: rgba(0,0,0, .3) !important;
+  background: rgba(0,0,0, .3) !important;
 }
 
 .ui-standard-sidebar-view .content-region {
-	background: rgba(0, 0, 0, .5) !important;
+  background: rgba(0, 0, 0, .5) !important;
 }
 
 /* popups */
-.searchPopout-38pRYh,
 .searchPopout-1vUlP3,
-.menu-3BZuDT,
+.searchPopout-1vUlP3,
 .menu-Sp6bN1,
-.contextMenu-uoJTbz,
+.menu-Sp6bN1,
+.contextMenu-HLZMGh,
 .contextMenu-HLZMGh {
-	/*border: 1px solid black !important;*/
-	background: rgb(30,30,30) !important;
+  /*border: 1px solid black !important;*/
+  background: rgb(30,30,30) !important;
 }
 
 /* tooltips */
 .tooltip {
-	background: rgb(0,0,0) !important;
+  background: rgb(0,0,0) !important;
 }
 
 .tooltip-top:after,
 .tooltip-top:before {
-	border-top-color: rgb(0,0,0) !important;
+  border-top-color: rgb(0,0,0) !important;
 }
 
 .tooltip-right:after,
 .tooltip-right:before {
-	border-right-color: rgb(0,0,0) !important;
+  border-right-color: rgb(0,0,0) !important;
 }
 
 .tooltip-left:after,
 .tooltip-left:before {
-	border-left-color: rgb(0,0,0) !important;
+  border-left-color: rgb(0,0,0) !important;
 }
 
 .tooltip-bottom:after,
 .tooltip-bottom:before {
-	border-bottom-color: rgb(0,0,0) !important;
+  border-bottom-color: rgb(0,0,0) !important;
 }
 
 /*
@@ -239,7 +239,7 @@ body:before {
 
 /* Chat */
 .search-results-wrap,
-.typing-3eiiL_ ,
+.typing-2GQL18 ,
 .typing-2GQL18,
 .messages-wrapper,
 .messages-wrapper .scroller-wrap,
@@ -250,9 +250,9 @@ body:before {
 .typing,
 
 /* General */
-.layer-kosS71,
-.layers-20RVFW,
-.container-2OU7Cz,
+.layer-3QrUeG,
+.layers-3iHuyZ,
+.container-2lgZY8,
 .container-2lgZY8,
 #app-mount,
 .layers,
@@ -264,13 +264,13 @@ body:before {
 /* Channel members */
 .channel-members-wrap > [class*=scroller],
 .channel-members-wrap .channel-members {
-	background: transparent !important;
+  background: transparent !important;
 }
 
 
 .unread-mentions-indicator-bottom,
 .unread-mentions-indicator-top {
-	display: none;
+  display: none;
 }
 
 /***
@@ -284,35 +284,35 @@ body:before {
  *                             |_|
  */
 
-.uploadModal-2KN6Mm,
 .uploadModal-2ifh8j,
-.uploadModal-2KN6Mm .footer-4pOKm8,
+.uploadModal-2ifh8j,
+.uploadModal-2ifh8j .footer-3mqk7D,
 .uploadModal-2ifh8j .footer-3mqk7D {
-	background-color: rgb(50,50,50);
+  background-color: rgb(50,50,50);
 }
 
-.uploadModal-2KN6Mm .inner-1-09ZV,
+.uploadModal-2ifh8j .inner-3nWsbo,
 .uploadModal-2ifh8j .inner-3nWsbo {
-	background-color: rgba(0,0,0,.5);
-	border-color: black;
+  background-color: rgba(0,0,0,.5);
+  border-color: black;
 }
 
-.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh,
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr {
-	border-color: black !important;
+  border-color: black !important;
 }
 
-.uploadModal-2KN6Mm .footer-4pOKm8 .button,
+.uploadModal-2ifh8j .footer-3mqk7D .button,
 .uploadModal-2ifh8j .footer-3mqk7D .button {
-	margin-right: 5px;
-	background-color: rgb(100,100,100);
-	color: white;
+  margin-right: 5px;
+  background-color: rgb(100,100,100);
+  color: white;
 }
 
-.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary,
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary,
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
-	background-color: rgb(200,200,200);
-	color: rgb(50,50,50);
+  background-color: rgb(200,200,200);
+  color: rgb(50,50,50);
 }
 
 /***
@@ -327,25 +327,25 @@ body:before {
  */
 
 :not(.guilds-wrapper.DSAC-styled) .guilds-add > .guilds-add-inner {
- 	font-size: 0 !important;
+  font-size: 0 !important;
  }
 
 :not(.guilds-wrapper.DSAC-styled) .guilds-add:before {
-	content: 'add';
-	position: relative;
-	width: 100%;
-	height: 100%;
-	bottom: 6px;
-	text-align: center;
-	font-size: 15px;
-	color: white;
-	text-transform: uppercase;
+  content: 'add';
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 6px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
 }
 
 :not(.guilds-wrapper.DSAC-styled) .guilds-add:hover:before {
-	content: 'click';
-	font-size: 15px;
-	bottom: 6px;
+  content: 'click';
+  font-size: 15px;
+  bottom: 6px;
 }
 
 .guilds-wrapper:not(.DSAC-styled) > div > div > .dms {
@@ -355,15 +355,15 @@ body:before {
 .guilds-wrapper:not(.DSAC-styled):not(:hover) > div > div > .guild:not(.unread):not(:first-child):not([id="bd-pub-li"]){
      opacity: 0 ;
      height: 0 ;
-	 margin-top: 0;
- 	 transition: height 0.4s, opacity 0.4s, margin 0.4s;
+   margin-top: 0;
+   transition: height 0.4s, opacity 0.4s, margin 0.4s;
      transition-delay: 0.3s ;
  }
 
  .guilds-wrapper:not(.DSAC-styled) > div > div > .guild{
      opacity: 0.8 ;
-	 margin-top: 0;
-	 transition: height 0.4s, opacity 0.4s, margin 0.4s;
+   margin-top: 0;
+   transition: height 0.4s, opacity 0.4s, margin 0.4s;
  }
 
  .guilds-wrapper:not(.DSAC-styled) .guilds .guild:not(:first-child) .guild-inner:hover .avatar-small{
@@ -381,7 +381,7 @@ body:before {
 
 
  :not(.guilds-wrapper.DSAC-styled) .guild.unread::before{
- 	background: transparent ;
+  background: transparent ;
  }
 
 /***
@@ -397,9 +397,9 @@ body:before {
 
 /* Thx CompletelyUnbelievable#3231 */
 
-div.mask-2vyqAW,
+div.mask-3OgeRz,
 .mask-3OgeRz,
-div.maskProfile-MeBve8{
+div.maskProfile-1ObLFT{
     mask: none !important;
     -webkit-mask: none !important;
 }
@@ -457,18 +457,18 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
   border-style: solid;
 }
 
-.avatar-1BXaQj.small-TEeAkX .status-2Devx1,
-.avatar-16XVId.small-5Os1Bb .status-2s6iDp {
-	  margin: 0 0 0 0;
-	  right: 2px;
-	  top: -32px;
-	  position: relative;
-	  height: 30px;
-	  width: 30px;
-	  border-radius: 50%;
-	  background-color: transparent;
-	  border-width: 2px;
-	  border-style: solid;
+.avatar-1BXaQj.small-5Os1Bb .status-2s6iDp,
+.avatar-1pYW6h.small-5Os1Bb .status-2s6iDp {
+    margin: 0 0 0 0;
+    right: 2px;
+    top: -32px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .avatar-small .status-streaming,
@@ -516,56 +516,56 @@ div[class*="statusOnline-"]  {
  *
  */
 
-:not([class*="Voice"]).icon-sxakjD .background-2OVjk_,
+:not([class*="Voice"]).icon-sxakjD .background-cBzfUc,
 :not([class*="Voice"]).icon-sxakjD ~ .foreground-2W-aJk {
-	stroke-width: 1;
+  stroke-width: 1;
 }
 
 .icon-sxakjD,
 .foreground-2W-aJk,
-.background-2OVjk_ {
-	opacity: 1;
+.background-cBzfUc {
+  opacity: 1;
 }
 
 .container-hidden .colorDefaultText-oas-QM,
 .container-hidden .colorDefaultVoice-3wYlhb {
-	color: rgb(98,98,255);
-	stroke: rgb(98,98,255);
+  color: rgb(98,98,255);
+  stroke: rgb(98,98,255);
 }
 .colorHoveredText-OZnAgu,
 .colorHoveredVoice-1kucsK {
-	color: white;
-	stroke: white;
-	stroke-width: 2 !important;
+  color: white;
+  stroke: white;
+  stroke-width: 2 !important;
 }
 
 .colorDefaultText-oas-QM,
 .colorDefaultVoice-3wYlhb {
-	color: white;
-	stroke: white;
+  color: white;
+  stroke: white;
 }
 
 .colorUnreadText-2t7XRb,
-.colorUnreadVoice-1Ztv9I {
-	color: rgb(255,98,98);
-	stroke: rgb(255,98,98);
+.colorUnreadVoice-137o4S {
+  color: rgb(255,98,98);
+  stroke: rgb(255,98,98);
 }
 
-.colorLockedText-2onHWv,
+.colorLockedText-1VRkPt,
 .colorLockedVoice-2UlBjl{
-	color: rgb(98,98,255);
-	stroke: rgb(98,98,255);
+  color: rgb(98,98,255);
+  stroke: rgb(98,98,255);
 }
 
-.colorSelectedVoice-ieXC3Z,
+.colorSelectedVoice-Xcb_9R,
 .colorSelectedText-1y4Wvs {
-	color: rgb(255,255,0);
-	stroke: rgb(255,255,0);
+  color: rgb(255,255,0);
+  stroke: rgb(255,255,0);
 }
 
 .colorMutedText-36M8WR {
-	color: rgb(20,20,20);
-	stroke: rgb(20,20,20);;
+  color: rgb(20,20,20);
+  stroke: rgb(20,20,20);;
 }
 
 /***
@@ -580,17 +580,17 @@ div[class*="statusOnline-"]  {
  */
 
  .message-group {
-	 padding: 4px 12px;
-	 margin-top: 6px;
-	 margin-bottom: 6px;
-	 border-radius: 10px;
-	 border-bottom: 0;
-	 background: rgba(0,0,0,.3) !important;
+   padding: 4px 12px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+   border-radius: 10px;
+   border-bottom: 0;
+   background: rgba(0,0,0,.3) !important;
  }
 
  .message-group .avatar-large {
-	 margin-top: 1px;
-	 margin-bottom: 1px;
+   margin-top: 1px;
+   margin-bottom: 1px;
  }
 
 /***
@@ -606,123 +606,123 @@ div[class*="statusOnline-"]  {
 
 .message-group .avatar-large ~ .comment .message h2 span.username-wrapper::after,
 .channel-members .member .avatar-small ~ .member-inner .member-username .member-username-inner::after {
-	border-radius: 2px;
-	border: 1px solid;
-	margin-left: 6px;
-	font-size: 10px;
-	font-weight: 600;
-	text-transform: uppercase;
-	vertical-align: bottom;
-	padding: 0px 2px;
-	line-height: 16px;
-	flex-shrink: 0;
-	-webkit-flex-shrink: 0;
-	opacity: 1;
+  border-radius: 2px;
+  border: 1px solid;
+  margin-left: 6px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  padding: 0px 2px;
+  line-height: 16px;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  opacity: 1;
 }
 
 /* Me */
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="261538420952662016"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "Theme Dev";
-	--badgecolor: 63, 162, 218;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "Theme Dev";
+  --badgecolor: 63, 162, 218;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 /* BD Mentions */
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="81388395867156480"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "BD Creator";
-	--badgecolor: 52, 152, 219;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "BD Creator";
+  --badgecolor: 52, 152, 219;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="235302947058089984"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "Best BD Mod";
-	--badgecolor: 46, 204, 113;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "Best BD Mod";
+  --badgecolor: 46, 204, 113;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="219363409097916416"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "circular";
-	--badgecolor: 201, 63, 115;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "circular";
+  --badgecolor: 201, 63, 115;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 /* Tatsumaki Mentions */
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="131904411789164544"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "Tatsu Creator";
-	--badgecolor: 233, 30, 99;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "Tatsu Creator";
+  --badgecolor: 233, 30, 99;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="219150768744300545"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "Best Tatsu support";
-	--badgecolor: 187, 97, 226;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "Best Tatsu support";
+  --badgecolor: 187, 97, 226;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 /* Nice ppl */
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="329114760660385794"],[style*="221087028995948546"],[style*="142410465027293184"],[style*="291600217726517248"],[style*="233611560545812480"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "Nice person";
-	--badgecolor: 255, 255, 255;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "Nice person";
+  --badgecolor: 255, 255, 255;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 }
 
 /* Beta Tester */
 
 .message-group:not(.compact) .avatar-large:-webkit-any([style*="80593258903773184"]) ~ .comment .message h2 span.username-wrapper::after {
-	content: "Beta tester";
-	--badgecolor: 255, 255, 255;
-	border-color: rgb(var(--badgecolor));
-	color: rgb(var(--badgecolor));
-	background: rgba(var(--badgecolor), 0.0980392);
+  content: "Beta tester";
+  --badgecolor: 255, 255, 255;
+  border-color: rgb(var(--badgecolor));
+  color: rgb(var(--badgecolor));
+  background: rgba(var(--badgecolor), 0.0980392);
 
 }
 
 /* Search */
 
-.search-results-wrap > .scrollerWrap-2uBjct,
+.search-results-wrap > .scrollerWrap-2lJEkd,
 .search-results-wrap > .scrollerWrap-2lJEkd {
-	background: rgba(0,0,0,.6) !important;
+  background: rgba(0,0,0,.6) !important;
 }
 
 .search-result:after,
 .search-result:before {
-	content: none !important;
+  content: none !important;
 }
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
-	background: rgba(0,0,0,.4);
-	border-radius: 5px !important;
+  background: rgba(0,0,0,.4);
+  border-radius: 5px !important;
 }
 
 .search-result.expanded {
-	border: none !important;
+  border: none !important;
 }
 
 .theme-dark .search-results-wrap .search-result .hit {
-	box-shadow: none;
-	background: rgba(0,0,0,0);
-	border: none !important;
+  box-shadow: none;
+  background: rgba(0,0,0,0);
+  border: none !important;
 }
 
 .search-header {
-	background: rgba(0,0,0,.7) !important;
+  background: rgba(0,0,0,.7) !important;
 }
 
 
@@ -740,220 +740,220 @@ div[class*="statusOnline-"]  {
 /*                       CodeBlocks                                      */
 
 :root {
-	--des-1c:              "1c";
+  --des-1c:              "1c";
 
-	--des-abnf:            "ABNF";
-	--des-accesslog:       "Access Log";
-	--des-actionscript:    "ActionScript";
-	--des-ada:             "Ada";
-	--des-apache:          "Apache";
-	--des-applescript:     "Applescript";
-	--des-arduino:         "Arduino";
-	--des-armasm:          "ARM Assembly";
-	--des-asciidoc:        "AsciiDoc";
-	--des-aspectj:         "AspectJ";
-	--des-atom:            "Atom Feed (XML)";
-	--des-autohotkey:      "AutoHotkey";
-	--des-autoit:          "AutoIt";
-	--des-avrasm:          "AVR Assembler";
-	--des-awk:             "Awk";
-	--des-axapta:          "Axapta";
+  --des-abnf:            "ABNF";
+  --des-accesslog:       "Access Log";
+  --des-actionscript:    "ActionScript";
+  --des-ada:             "Ada";
+  --des-apache:          "Apache";
+  --des-applescript:     "Applescript";
+  --des-arduino:         "Arduino";
+  --des-armasm:          "ARM Assembly";
+  --des-asciidoc:        "AsciiDoc";
+  --des-aspectj:         "AspectJ";
+  --des-atom:            "Atom Feed (XML)";
+  --des-autohotkey:      "AutoHotkey";
+  --des-autoit:          "AutoIt";
+  --des-avrasm:          "AVR Assembler";
+  --des-awk:             "Awk";
+  --des-axapta:          "Axapta";
 
-	--des-bash:            "Bash";
-	--des-basic:           "Basic";
-	--des-dos:             "Batch";
-	--des-bnf:             "BNF";
-	--des-brainfuck:       "Brainfuck";
+  --des-bash:            "Bash";
+  --des-basic:           "Basic";
+  --des-dos:             "Batch";
+  --des-bnf:             "BNF";
+  --des-brainfuck:       "Brainfuck";
 
-	--des-c:               "C/C++";
-	--des-cs:              "C#";
-	--des-cal:             "CAL";
-	--des-capnproto:       "Cap'n Proto";
-	--des-ceylon:          "Ceylon";
-	--des-clean:           "Clean";
-	--des-clojure:         "Clojure";
-	--des-clojure-repl:    "Clojure REPL";
-	--des-cmake:           "CMake";
-	--des-coffeescript:    "CoffeeScript";
-	--des-coq:             "Coq";
-	--des-cos:             "CachÃ© Object Script";
-	--des-podspec:         "CocoaPod";
-	--des-crmsh:           "crmsh";
-	--des-crystal:         "Crystal";
-	--des-csp:             "CSP";
-	--des-css:             "CSS";
+  --des-c:               "C/C++";
+  --des-cs:              "C#";
+  --des-cal:             "CAL";
+  --des-capnproto:       "Cap'n Proto";
+  --des-ceylon:          "Ceylon";
+  --des-clean:           "Clean";
+  --des-clojure:         "Clojure";
+  --des-clojure-repl:    "Clojure REPL";
+  --des-cmake:           "CMake";
+  --des-coffeescript:    "CoffeeScript";
+  --des-coq:             "Coq";
+  --des-cos:             "CachÃ© Object Script";
+  --des-podspec:         "CocoaPod";
+  --des-crmsh:           "crmsh";
+  --des-crystal:         "Crystal";
+  --des-csp:             "CSP";
+  --des-css:             "CSS";
 
-	--des-d:               "D";
-	--des-dart:            "Dart";
-	--des-delphi:          "Delphi (Object Pascal)";
-	--des-diff:            "Diff";
-	--des-django:          "Django";
-	--des-dns:             "DNS Zone File";
-	--des-dockerfile:      "Dockerfile";
-	--des-dsconfig:        "dsconfig";
-	--des-dts:             "Device Tree";
-	--des-dust:            "Dust";
+  --des-d:               "D";
+  --des-dart:            "Dart";
+  --des-delphi:          "Delphi (Object Pascal)";
+  --des-diff:            "Diff";
+  --des-django:          "Django";
+  --des-dns:             "DNS Zone File";
+  --des-dockerfile:      "Dockerfile";
+  --des-dsconfig:        "dsconfig";
+  --des-dts:             "Device Tree";
+  --des-dust:            "Dust";
 
-	--des-ebnf:            "EBNF";
-	--des-elixir:          "Elixir";
-	--des-elm:             "Elm";
-	--des-erb:             "ERB";
-	--des-erlang:          "Erlang";
-	--des-erlang-repl:     "Erlang REPL";
-	--des-excel:           "Excel";
+  --des-ebnf:            "EBNF";
+  --des-elixir:          "Elixir";
+  --des-elm:             "Elm";
+  --des-erb:             "ERB";
+  --des-erlang:          "Erlang";
+  --des-erlang-repl:     "Erlang REPL";
+  --des-excel:           "Excel";
 
-	--des-fs:              "F#";
-	--des-fix:             "Fix";
-	--des-flix:            "Flix";
-	--des-fortran:         "Fortran";
+  --des-fs:              "F#";
+  --des-fix:             "Fix";
+  --des-flix:            "Flix";
+  --des-fortran:         "Fortran";
 
-	--des-gams:            "GAMS";
-	--des-gauss:           "Gauss";
-	--des-gcode:           "G-code";
-	--des-gherkin:         "Gherkin";
-	--des-glsl:            "GLSL";
-	--des-go:              "Go";
-	--des-golo:            "Golo";
-	--des-gradle:          "Gradle";
-	--des-groovy:          "Groovy";
+  --des-gams:            "GAMS";
+  --des-gauss:           "Gauss";
+  --des-gcode:           "G-code";
+  --des-gherkin:         "Gherkin";
+  --des-glsl:            "GLSL";
+  --des-go:              "Go";
+  --des-golo:            "Golo";
+  --des-gradle:          "Gradle";
+  --des-groovy:          "Groovy";
 
-	--des-haml:            "Haml";
-	--des-handlebars:      "Handlebars";
-	--des-haskell:         "Haskell";
-	--des-haxe:            "Haxe";
-	--des-hsp:             "HSP";
-	--des-html:            "HTML";
-	--des-htmlbars:        "HTMLBars";
-	--des-http:            "HTTP";
-	--des-https:           "HTTPS";
-	--des-hy:              "Hy";
+  --des-haml:            "Haml";
+  --des-handlebars:      "Handlebars";
+  --des-haskell:         "Haskell";
+  --des-haxe:            "Haxe";
+  --des-hsp:             "HSP";
+  --des-html:            "HTML";
+  --des-htmlbars:        "HTMLBars";
+  --des-http:            "HTTP";
+  --des-https:           "HTTPS";
+  --des-hy:              "Hy";
 
-	--des-inform7:         "Inform7";
-	--des-ini:             "Ini";
-	--des-irpf90:          "IRPF90";
-	--des-irb:             "IRB";
+  --des-inform7:         "Inform7";
+  --des-ini:             "Ini";
+  --des-irpf90:          "IRPF90";
+  --des-irb:             "IRB";
 
-	--des-java:            "Java";
-	--des-javascript:      "JavaScript (Babel)";
-	--des-xjb:             "JAXB (XML)";
-	--des-jboss-cli:       "JBoss CLI";
-	--des-json:            "JSON";
-	--des-julia:           "Julia";
-	--des-julia-repl:      "Julia REPL";
+  --des-java:            "Java";
+  --des-javascript:      "JavaScript (Babel)";
+  --des-xjb:             "JAXB (XML)";
+  --des-jboss-cli:       "JBoss CLI";
+  --des-json:            "JSON";
+  --des-julia:           "Julia";
+  --des-julia-repl:      "Julia REPL";
 
-	--des-kotlin:          "Kotlin";
+  --des-kotlin:          "Kotlin";
 
-	--des-lasso:           "Lasso";
-	--des-ldif:            "LDIF";
-	--des-leaf:            "Leaf";
-	--des-less:            "Less";
-	--des-lisp:            "Lisp";
-	--des-livecodeserver:  "LiveCode Server";
-	--des-livescript:      "LiveScript";
-	--des-llvm:            "LLVM IR";
-	--des-lsl:             "LSL";
-	--des-lua:             "Lua";
+  --des-lasso:           "Lasso";
+  --des-ldif:            "LDIF";
+  --des-leaf:            "Leaf";
+  --des-less:            "Less";
+  --des-lisp:            "Lisp";
+  --des-livecodeserver:  "LiveCode Server";
+  --des-livescript:      "LiveScript";
+  --des-llvm:            "LLVM IR";
+  --des-lsl:             "LSL";
+  --des-lua:             "Lua";
 
-	--des-makefile:        "Makefile";
-	--des-markdown:        "Markdown";
-	--des-mathematica:     "Mathematica";
-	--des-matlab:          "MatLab";
-	--des-maxima:          "Maxima";
-	--des-mel:             "MEL";
-	--des-mercury:         "Mercury";
-	--des-mipsasm:         "MISP Assembly";
-	--des-routeros:        "Mikrotik RouterOS";
-	--des-mizar:           "Mizar";
-	--des-mojolicious:     "Mojolicious";
-	--des-monkey:          "Monkey";
-	--des-moonscript:      "MoonScript";
+  --des-makefile:        "Makefile";
+  --des-markdown:        "Markdown";
+  --des-mathematica:     "Mathematica";
+  --des-matlab:          "MatLab";
+  --des-maxima:          "Maxima";
+  --des-mel:             "MEL";
+  --des-mercury:         "Mercury";
+  --des-mipsasm:         "MISP Assembly";
+  --des-routeros:        "Mikrotik RouterOS";
+  --des-mizar:           "Mizar";
+  --des-mojolicious:     "Mojolicious";
+  --des-monkey:          "Monkey";
+  --des-moonscript:      "MoonScript";
 
-	--des-n1ql:            "N1QL";
-	--des-nginx:           "Nginx";
-	--des-nimrod:          "Nimrod";
-	--des-nix:             "Nix";
-	--des-nsis:            "NSIS";
+  --des-n1ql:            "N1QL";
+  --des-nginx:           "Nginx";
+  --des-nimrod:          "Nimrod";
+  --des-nix:             "Nix";
+  --des-nsis:            "NSIS";
 
-	--des-objectivec:      "Objective-C";
-	--des-ocaml:           "OCaml";
-	--des-openscad:        "OpenSCAD";
-	--des-ruleslanguage:   "Oracle Rules Language";
-	--des-oxygene:         "Oxygene";
+  --des-objectivec:      "Objective-C";
+  --des-ocaml:           "OCaml";
+  --des-openscad:        "OpenSCAD";
+  --des-ruleslanguage:   "Oracle Rules Language";
+  --des-oxygene:         "Oxygene";
 
-	--des-parser3:         "Parser3";
-	--des-pascal:          "Pascal/Object Pascal";
-	--des-perl:            "Perl";
-	--des-pf:              "PF";
-	--des-php:             "PHP";
-	--des-pony:            "Pony";
-	--des-powershell:      "PowerShell";
-	--des-processing:      "Processing";
-	--des-prolog:          "Prolog";
-	--des-plist:           "Property List";
-	--des-protobuf:        "Protocol Buffers";
-	--des-puppet:          "Puppet";
-	--des-purebasic:       "PureBASIC";
-	--des-python:          "Python";
-	--des-profile:         "Python profile";
+  --des-parser3:         "Parser3";
+  --des-pascal:          "Pascal/Object Pascal";
+  --des-perl:            "Perl";
+  --des-pf:              "PF";
+  --des-php:             "PHP";
+  --des-pony:            "Pony";
+  --des-powershell:      "PowerShell";
+  --des-processing:      "Processing";
+  --des-prolog:          "Prolog";
+  --des-plist:           "Property List";
+  --des-protobuf:        "Protocol Buffers";
+  --des-puppet:          "Puppet";
+  --des-purebasic:       "PureBASIC";
+  --des-python:          "Python";
+  --des-profile:         "Python profile";
 
-	--des-q:               "Q";
-	--des-qml:             "QML";
+  --des-q:               "Q";
+  --des-qml:             "QML";
 
-	--des-r:               "R";
-	--des-rib:             "RenderMan RIB";
-	--des-rsl:             "RenderMan RSL";
-	--des-roboconf:        "Roboconf";
-	--des-rss:             "RSS Feed (XML)";
-	--des-ruby:            "Ruby";
-	--des-gemspec:         "Ruby Gem";
-	--des-rust:            "Rust";
+  --des-r:               "R";
+  --des-rib:             "RenderMan RIB";
+  --des-rsl:             "RenderMan RSL";
+  --des-roboconf:        "Roboconf";
+  --des-rss:             "RSS Feed (XML)";
+  --des-ruby:            "Ruby";
+  --des-gemspec:         "Ruby Gem";
+  --des-rust:            "Rust";
 
-	--des-scala:           "Scala";
-	--des-scheme:          "Scheme";
-	--des-scilab:          "Scilab";
-	--des-scss:            "SCSS";
-	--des-shell:           "Shell";
-	--des-smali:           "Smali";
-	--des-smalltalk:       "Smalltalk";
-	--des-sml:             "SML";
-	--des-sqf:             "SQF";
-	--des-sql:             "SQL";
-	--des-stan:            "Stan";
-	--des-stata:           "Stata";
-	--des-step21:          "STEP Part 21";
-	--des-stylus:          "Stylus";
-	--des-subunit:         "SubUnit";
-	--des-swift:           "Swift";
+  --des-scala:           "Scala";
+  --des-scheme:          "Scheme";
+  --des-scilab:          "Scilab";
+  --des-scss:            "SCSS";
+  --des-shell:           "Shell";
+  --des-smali:           "Smali";
+  --des-smalltalk:       "Smalltalk";
+  --des-sml:             "SML";
+  --des-sqf:             "SQF";
+  --des-sql:             "SQL";
+  --des-stan:            "Stan";
+  --des-stata:           "Stata";
+  --des-step21:          "STEP Part 21";
+  --des-stylus:          "Stylus";
+  --des-subunit:         "SubUnit";
+  --des-swift:           "Swift";
 
-	--des-taggerscript:    "Tagger Script";
-	--des-tap:             "TAP";
-	--des-thor:            "Thor";
-	--des-tcl:             "Tcl";
-	--des-tex:             "TeX";
-	--des-thrift:          "Thrift";
-	--des-tp:              "TP";
-	--des-twig:            "Twig";
-	--des-typescript:      "TypeScript";
-	--des-vala:            "Vala";
-	--des-vbnet:           "VB.NET";
-	--des-vbscript:        "VBScript";
-	--des-vbscript-html:   "VBScript HTML";
-	--des-verilog:         "Verilog";
-	--des-vhdl:            "VHDL";
-	--des-vim:             "Vim Script";
+  --des-taggerscript:    "Tagger Script";
+  --des-tap:             "TAP";
+  --des-thor:            "Thor";
+  --des-tcl:             "Tcl";
+  --des-tex:             "TeX";
+  --des-thrift:          "Thrift";
+  --des-tp:              "TP";
+  --des-twig:            "Twig";
+  --des-typescript:      "TypeScript";
+  --des-vala:            "Vala";
+  --des-vbnet:           "VB.NET";
+  --des-vbscript:        "VBScript";
+  --des-vbscript-html:   "VBScript HTML";
+  --des-verilog:         "Verilog";
+  --des-vhdl:            "VHDL";
+  --des-vim:             "Vim Script";
 
-	--des-x86asm:          "x86 Assembly";
-	--des-xl:              "XL";
-	--des-xquery:          "XQuery";
-	--des-yaml:            "YAML";
-	--des-xhtml:           "XHTML";
-	--des-xml:             "XML";
-	--des-xsd:             "XML Schema";
-	--des-xsl:             "XSL";
+  --des-x86asm:          "x86 Assembly";
+  --des-xl:              "XL";
+  --des-xquery:          "XQuery";
+  --des-yaml:            "YAML";
+  --des-xhtml:           "XHTML";
+  --des-xml:             "XML";
+  --des-xsd:             "XML Schema";
+  --des-xsl:             "XSL";
 
-	--des-zephir:          "Zephir";
+  --des-zephir:          "Zephir";
 
-	--des-default:		0;
+  --des-default:    0;
 }
 
 
@@ -978,54 +978,54 @@ div[class*="statusOnline-"]  {
 /* DSAC */
 
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):not(.guild-sorter):not(#bd-pub-li):before {
-	content: "";
-	-webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" ><path fill="currentColor" stroke="currentColor" stroke-width="0.7" d="M2.27333333,12 L2.74666667,9.33333333 L0.08,9.33333333 L0.313333333,8 L2.98,8 L3.68666667,4 L1.02,4 L1.25333333,2.66666667 L3.92,2.66666667 L4.39333333,0 L5.72666667,0 L5.25333333,2.66666667 L9.25333333,2.66666667 L9.72666667,0 L11.06,0 L10.5866667,2.66666667 L13.2533333,2.66666667 L13.02,4 L10.3533333,4 L9.64666667,8 L12.3133333,8 L12.08,9.33333333 L9.41333333,9.33333333 L8.94,12 L7.60666667,12 L8.08,9.33333333 L4.08,9.33333333 L3.60666667,12 L2.27333333,12 L2.27333333,12 Z M5.02,4 L4.31333333,8 L8.31333333,8 L9.02,4 L5.02,4 L5.02,4 Z"></path></svg>');
-	-webkit-mask-size: 100%;
-	-webkit-mask-position: 100%;
-  	-webkit-mask-repeat: no-repeat;
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" ><path fill="currentColor" stroke="currentColor" stroke-width="0.7" d="M2.27333333,12 L2.74666667,9.33333333 L0.08,9.33333333 L0.313333333,8 L2.98,8 L3.68666667,4 L1.02,4 L1.25333333,2.66666667 L3.92,2.66666667 L4.39333333,0 L5.72666667,0 L5.25333333,2.66666667 L9.25333333,2.66666667 L9.72666667,0 L11.06,0 L10.5866667,2.66666667 L13.2533333,2.66666667 L13.02,4 L10.3533333,4 L9.64666667,8 L12.3133333,8 L12.08,9.33333333 L9.41333333,9.33333333 L8.94,12 L7.60666667,12 L8.08,9.33333333 L4.08,9.33333333 L3.60666667,12 L2.27333333,12 L2.27333333,12 Z M5.02,4 L4.31333333,8 L8.31333333,8 L9.02,4 L5.02,4 L5.02,4 Z"></path></svg>');
+  -webkit-mask-size: 100%;
+  -webkit-mask-position: 100%;
+    -webkit-mask-repeat: no-repeat;
 
-	position: absolute;
-	top: 8px;
-	margin: 0;
-	border-radius: 0;
-	height: 20px;
-	width: 20px;
-	left: 5px;
-	opacity: 1;
-	transition: .7s;
+  position: absolute;
+  top: 8px;
+  margin: 0;
+  border-radius: 0;
+  height: 20px;
+  width: 20px;
+  left: 5px;
+  opacity: 1;
+  transition: .7s;
 }
 
 .guilds-wrapper.DSAC-styled .guild-separator {
-	height: 2px;
+  height: 2px;
 }
 
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).unread:before {
-	background-color: rgb(255,98,98);
+  background-color: rgb(255,98,98);
 }
 
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):before {
-	background-color: white;
+  background-color: white;
 }
 
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).selected:before {
-	background-color: rgb(255,255,0);
+  background-color: rgb(255,255,0);
 }
 
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child).selected.unread:before {
-	background-color: #ff8000;
+  background-color: #ff8000;
 }
 
 .guilds-wrapper.DSAC-styled .guild:not(:first-child):not(:last-child):not(.guild-sorter):not(#bd-pub-li) a {
-	margin-left: 23px;
+  margin-left: 23px;
 }
 
 /* Compact guilds */
 .compactguilds .guilds-wrapper {
-	background: rgb(20,20,20);
+  background: rgb(20,20,20);
 }
 
 .compactguilds .private-channels > [class*="scrollerWrap-"],
 .compactguilds [class*="channels-"] > [class*="flex-"] > [class*="scrollerWrap-"] > [class*="scroller-"],
 .compactguilds [class*="channels-"] > [class*="container-"]  {
-	background: rgb(10,10,10);
+  background: rgb(10,10,10);
 }
