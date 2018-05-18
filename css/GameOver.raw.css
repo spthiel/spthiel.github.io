@@ -1,3 +1,4 @@
+
 :root {
 	--version-now: 1;
 }
@@ -652,11 +653,46 @@ div[class*="statusOnline-"]  {
 	background: rgba(var(--badgecolor), 0.0980392);
 }
 
+.message-group:not(.compact) .avatar-large:-webkit-any([style*="104359575301394432"]) ~ .comment .message h2 span.username-wrapper::after {
+	content: "Best Tatsu dev";
+	--badgecolor: 233, 30, 99;
+	border-color: rgb(var(--badgecolor));
+	color: rgb(var(--badgecolor));
+	background: rgba(var(--badgecolor), 0.0980392);
+}
+
 /* Nice ppl */
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="329114760660385794"],[style*="278330720353779712"],[style*="221087028995948546"],[style*="142410465027293184"],[style*="291600217726517248"],[style*="233611560545812480"]) ~ .comment .message h2 span.username-wrapper::after {
+.message-group:not(.compact) .avatar-large:-webkit-any(
+	[style*="329114760660385794"],
+	[style*="221087028995948546"],
+	[style*="437426387448627200"],
+	[style*="142410465027293184"],
+	[style*="278330720353779712"],
+	[style*="291600217726517248"],
+	[style*="260188375728783362"],
+	[style*="138161785151815680"],
+	[style*="105053668348293120"],
+	[style*="152646690581643265"],
+	[style*="137556524460408832"],
+	[style*="214157273512017921"],
+	[style*="81087180084097024"],
+	[style*="233611560545812480"]) ~ .comment .message h2 span.username-wrapper::after {
 	content: "Nice person";
 	--badgecolor: 255, 255, 255;
+	border-color: rgb(var(--badgecolor));
+	color: rgb(var(--badgecolor));
+	background: rgba(var(--badgecolor), 0.0980392);
+}
+
+/* Cute */
+
+.message-group:not(.compact) .avatar-large:-webkit-any(
+	[style*="192463930512244736"],
+	[style*="245007340724682753"],
+	[style*="231191699811074049"]) ~ .comment .message h2 span.username-wrapper::after {
+	content: "cute";
+	--badgecolor: 26, 188, 156;
 	border-color: rgb(var(--badgecolor));
 	color: rgb(var(--badgecolor));
 	background: rgba(var(--badgecolor), 0.0980392);
