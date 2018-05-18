@@ -1047,3 +1047,29 @@ div[class*="statusOnline-"]  {
 .compactguilds .container-2Rl01u {
 	background: rgb(0,0,0) !important;
 }
+
+/* TRE */
+
+.TRE-tag {
+	border-radius: 2px;
+    border: 1px solid white !important;
+	background-color: rgba(255,255,255,.0980392) !important;
+	margin-bottom: 1px;
+    margin-left: 6px;
+	margin-right: 0;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    padding: 0px 2px;
+    line-height: 16px;
+    flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    opacity: 1;
+}
+
+.TRE-tag .role-inner {
+	color: white !important;
+	position: relative;
+	top: -1px;
+}
