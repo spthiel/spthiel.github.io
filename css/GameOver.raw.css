@@ -702,7 +702,6 @@ div[class*="statusOnline-"]  {
 
 .message-group:not(.compact) .avatar-large:-webkit-any(
 	[style*="192463930512244736"],
-	[style*="374999813118230528"],
 	[style*="245007340724682753"],
 	[style*="231191699811074049"]) ~ .comment .message h2 span.username-wrapper::after {
 	content: "cute";
