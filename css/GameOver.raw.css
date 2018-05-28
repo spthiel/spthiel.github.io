@@ -677,6 +677,7 @@ div[class*="statusOnline-"]  {
 /* Nice ppl */
 
 .message-group:not(.compact) .avatar-large:-webkit-any(
+	[style*="309311003303215108"],
 	[style*="271760756817526784"],
 	[style*="329114760660385794"],
 	[style*="437426387448627200"],
