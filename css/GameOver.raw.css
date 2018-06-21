@@ -406,9 +406,14 @@ body:before {
   bottom:0 !important;
 }
 
-.status-typing {
+.spinner-2enMB9 {
+	display: none;
+}
+
+.typing-1KJk_j {
   border-color: hsl(0, 100%, 50%) !important;
   animation: rainbow 4s infinite linear !important;
+	display: block;
 }
 
 div[class*="popout-"] > div [class*="avatarStatus-"]{
@@ -435,9 +440,10 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
   background-color: transparent;
   border-width: 2px;
   border-style: solid;
+	pointer-events: none;
 }
 
-.avatar-16XVId.small-5Os1Bb .status-2s6iDp {
+.avatarWrapper-3B0ndJ .small-5Os1Bb ~ .status-2s6iDp {
 	  margin: 0 0 0 0;
 	  right: 2px;
 	  top: -32px;
@@ -450,12 +456,12 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
 	  border-style: solid;
 }
 
-.avatar-small .status-streaming,
+.streaming-2_dnHe,
 div[class*="statusStreaming-"] {
   border-color: #593695 !important;
 }
 
-.avatar-small .status-offline,
+.offline-3qoTek,
 div[class*="statusOffline-"] {
 
   border-color: #747f8d !important;
@@ -463,21 +469,21 @@ div[class*="statusOffline-"] {
 
 }
 
-.avatar-small .status-dnd,
+.dnd-1_xrcq,
 div[class*="statusDnd-"]  {
 
   border-color: #f04747 !important;
 
 }
 
-.avatar-small .status-idle,
+.idle-3DEnRT,
 div[class*="statusIdle-"] {
 
   border-color: #faa61a !important;
 
 }
 
-.avatar-small .status-online:not(.status-typing),
+.online-2S838R:not(.typing-1KJk_j),
 div[class*="statusOnline-"]  {
 
   border-color: #43b581 !important;
@@ -583,15 +589,17 @@ div[class*="statusOnline-"]  {
  *                           |_|              |_|
  */
 
-.message-group .avatar-large ~ .comment .message h2 span.username-wrapper::after,
-.channel-members .member .avatar-small ~ .member-inner .member-username .member-username-inner::after {
+.message-group .avatar-large .avatar-large::after {
+	right: calc(-100vw + 346px);
+	float: right;
+	position: absolute;
+	width: max-content;
+
 	border-radius: 2px;
 	border: 1px solid;
-	margin-left: 6px;
 	font-size: 10px;
 	font-weight: 600;
 	text-transform: uppercase;
-	vertical-align: bottom;
 	padding: 0px 2px;
 	line-height: 16px;
 	flex-shrink: 0;
@@ -601,7 +609,7 @@ div[class*="statusOnline-"]  {
 
 /* Me */
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="261538420952662016"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large .avatar-large:-webkit-any([style*="261538420952662016"])::after {
 	content: "Theme Dev";
 	--badgecolor: 63, 162, 218;
 	border-color: rgb(var(--badgecolor));
@@ -611,7 +619,7 @@ div[class*="statusOnline-"]  {
 
 /* BD Mentions */
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="81388395867156480"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="81388395867156480"])::after {
 	content: "BD Creator";
 	--badgecolor: 52, 152, 219;
 	border-color: rgb(var(--badgecolor));
@@ -619,7 +627,7 @@ div[class*="statusOnline-"]  {
 	background: rgba(var(--badgecolor), 0.0980392);
 }
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="235302947058089984"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="235302947058089984"])::after {
 	content: "Best BD Mod";
 	--badgecolor: 46, 204, 113;
 	border-color: rgb(var(--badgecolor));
@@ -627,7 +635,7 @@ div[class*="statusOnline-"]  {
 	background: rgba(var(--badgecolor), 0.0980392);
 }
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="219363409097916416"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="219363409097916416"])::after {
 	content: "circular";
 	--badgecolor: 201, 63, 115;
 	border-color: rgb(var(--badgecolor));
@@ -637,7 +645,7 @@ div[class*="statusOnline-"]  {
 
 /* Tatsumaki Mentions */
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="131904411789164544"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="131904411789164544"])::after {
 	content: "Tatsu Creator";
 	--badgecolor: 233, 30, 99;
 	border-color: rgb(var(--badgecolor));
@@ -645,7 +653,7 @@ div[class*="statusOnline-"]  {
 	background: rgba(var(--badgecolor), 0.0980392);
 }
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="219150768744300545"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="219150768744300545"])::after {
 	content: "Best Tatsu support";
 	--badgecolor: 187, 97, 226;
 	border-color: rgb(var(--badgecolor));
@@ -653,7 +661,7 @@ div[class*="statusOnline-"]  {
 	background: rgba(var(--badgecolor), 0.0980392);
 }
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="104359575301394432"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="104359575301394432"])::after {
 	content: "Best Tatsu dev";
 	--badgecolor: 233, 30, 99;
 	border-color: rgb(var(--badgecolor));
@@ -663,10 +671,10 @@ div[class*="statusOnline-"]  {
 
 /* New rank for extra nice ppl bcs there were so many nice ppl #249999*/
 
-.message-group:not(.compact) .avatar-large:-webkit-any(
+.avatar-large  .avatar-large:-webkit-any(
 	[style*="221087028995948546"],
 	[style*="291600217726517248"],
-	[style*="233611560545812480"]) ~ .comment .message h2 span.username-wrapper::after {
+	[style*="233611560545812480"])::after {
 	content: "really Nice person";
 	--badgecolor: 36, 153, 153;
 	border-color: rgb(var(--badgecolor));
@@ -676,22 +684,25 @@ div[class*="statusOnline-"]  {
 
 /* Nice ppl */
 
-.message-group:not(.compact) .avatar-large:-webkit-any(
+.avatar-large  .avatar-large:-webkit-any(
 	[style*="309311003303215108"],
 	[style*="271760756817526784"],
 	[style*="329114760660385794"],
-	[style*="437426387448627200"],
+	[style*="221087028995948546"],
 	[style*="185865492576075776"],
+	[style*="437426387448627200"],
 	[style*="142410465027293184"],
 	[style*="278330720353779712"],
 	[style*="263865835658018818"],
+	[style*="291600217726517248"],
 	[style*="260188375728783362"],
 	[style*="138161785151815680"],
 	[style*="105053668348293120"],
 	[style*="152646690581643265"],
 	[style*="137556524460408832"],
 	[style*="214157273512017921"],
-	[style*="81087180084097024"]) ~ .comment .message h2 span.username-wrapper::after {
+	[style*="81087180084097024"],
+	[style*="233611560545812480"])::after {
 	content: "Nice person";
 	--badgecolor: 255, 255, 255;
 	border-color: rgb(var(--badgecolor));
@@ -701,10 +712,9 @@ div[class*="statusOnline-"]  {
 
 /* Cute */
 
-.message-group:not(.compact) .avatar-large:-webkit-any(
+.avatar-large  .avatar-large:-webkit-any(
 	[style*="192463930512244736"],
-	[style*="245007340724682753"],
-	[style*="231191699811074049"]) ~ .comment .message h2 span.username-wrapper::after {
+	[style*="245007340724682753"])::after {
 	content: "cute";
 	--badgecolor: 26, 188, 156;
 	border-color: rgb(var(--badgecolor));
@@ -714,7 +724,7 @@ div[class*="statusOnline-"]  {
 
 /* Beta Tester */
 
-.message-group:not(.compact) .avatar-large:-webkit-any([style*="80593258903773184"]) ~ .comment .message h2 span.username-wrapper::after {
+.avatar-large  .avatar-large:-webkit-any([style*="80593258903773184"])::after {
 	content: "Beta tester";
 	--badgecolor: 255, 255, 255;
 	border-color: rgb(var(--badgecolor));
