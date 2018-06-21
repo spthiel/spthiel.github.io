@@ -248,6 +248,9 @@ body:before {
 .layer,
 .layer > [class*="container-"],
 
+/* Games */
+.activityFeed-28jde9,
+
 /* Channel members */
 .channel-members-wrap > [class*=scroller],
 .channel-members-wrap .channel-members {
