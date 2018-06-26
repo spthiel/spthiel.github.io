@@ -1035,6 +1035,10 @@ div[class*="statusOnline-"]  {
 	transition: .7s;
 }
 
+.guilds-wrapper.DSAC-styled .guild-separator ~ .guild .icon-3o6xvg {
+    margin-left: 20px !important;
+}
+
 .guilds-wrapper.DSAC-styled .guild-separator {
 	height: 2px;
 }
