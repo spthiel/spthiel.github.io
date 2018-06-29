@@ -592,23 +592,31 @@ div[class*="statusOnline-"]  {
  *                           |_|              |_|
  */
 
-.message-group .avatar-large .avatar-large::after {
-	right: calc(-100vw + 346px);
-	float: right;
-	position: absolute;
-	width: max-content;
+ .message-group {
+ 	position: relative;
+ }
 
-	border-radius: 2px;
-	border: 1px solid;
-	font-size: 10px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding: 0px 2px;
-	line-height: 16px;
-	flex-shrink: 0;
-	-webkit-flex-shrink: 0;
-	opacity: 1;
-}
+ .message-group .avatar-large,
+ .message-group .avatar-large .avatar-large {
+ 	position: static;
+ }
+
+ .message-group .avatar-large .avatar-large::after {
+ 	right: 5px;
+ 	position: absolute;
+ 	width: max-content;
+
+ 	border-radius: 2px;
+ 	border: 1px solid;
+ 	font-size: 10px;
+ 	font-weight: 600;
+ 	text-transform: uppercase;
+ 	padding: 0px 2px;
+ 	line-height: 16px;
+ 	flex-shrink: 0;
+ 	-webkit-flex-shrink: 0;
+ 	opacity: 1;
+ }
 
 /* Me */
 
