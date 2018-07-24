@@ -1,4 +1,3 @@
-
 :root {
 	--version-now: 1;
 }
@@ -90,6 +89,7 @@ body:before {
 
 /* In Chat objects */
 .message-group .comment .markup pre,
+.da-message .da-markup pre,
 .inline {
 	background: rgba(0,0,0,.5) !important;
 	border: 0 solid black !important;
@@ -238,6 +238,7 @@ body:before {
 .chat form,
 .chat .content,
 .typing,
+.da-message .da-markup pre code,
 
 /* General */
 .layer-3QrUeG,
@@ -432,10 +433,14 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
   border-style: solid;
 }
 
+.private-channels .avatar-small .status {
+	top: -2px;
+}
+
 .avatar-small .status {
   margin: 0;
   right: 2px !important;
-  top: -2px;
+  top: 0;
   position: relative;
   height: 30px !important;
   width: 30px !important;
@@ -448,11 +453,11 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
 
 .avatarWrapper-3B0ndJ .small-5Os1Bb ~ .status-2s6iDp {
 	  margin: 0 0 0 0;
-	  right: 2px;
+	  right: 2px !important;
 	  top: -32px;
 	  position: relative;
-	  height: 30px;
-	  width: 30px;
+	  height: 30px !important;
+	  width: 30px !important;
 	  border-radius: 50%;
 	  background-color: transparent;
 	  border-width: 2px;
@@ -592,31 +597,31 @@ div[class*="statusOnline-"]  {
  *                           |_|              |_|
  */
 
- .message-group {
- 	position: relative;
- }
+.message-group {
+	position: relative;
+}
 
- .message-group .avatar-large,
- .message-group .avatar-large .avatar-large {
- 	position: static;
- }
+.message-group .avatar-large,
+.message-group .avatar-large .avatar-large {
+	position: static;
+}
 
- .message-group .avatar-large .avatar-large::after {
- 	right: 5px;
- 	position: absolute;
- 	width: max-content;
+.message-group .avatar-large .avatar-large::after {
+	right: 5px;
+	position: absolute;
+	width: max-content;
 
- 	border-radius: 2px;
- 	border: 1px solid;
- 	font-size: 10px;
- 	font-weight: 600;
- 	text-transform: uppercase;
- 	padding: 0px 2px;
- 	line-height: 16px;
- 	flex-shrink: 0;
- 	-webkit-flex-shrink: 0;
- 	opacity: 1;
- }
+	border-radius: 2px;
+	border: 1px solid;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0px 2px;
+	line-height: 16px;
+	flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	opacity: 1;
+}
 
 /* Me */
 
@@ -1022,6 +1027,7 @@ div[class*="statusOnline-"]  {
   margin-bottom: 4px;
 
 }
+
 
 .da-message .da-markup pre code:before {
 
