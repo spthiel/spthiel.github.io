@@ -132,8 +132,8 @@ body:before {
 
  /* Chat */
 #friends > .friends-table,
-.chat .content > .flex-spacer {
-	background: rgba(0,0,0,.6);
+.da-chat > .da-content {
+	background: rgba(0,0,0,.6) !important;
 }
 
 #friends > .friends-table {
@@ -153,14 +153,14 @@ body:before {
 .private-channels .search-bar,
 [class*="flexChild"] > [class*="container-"] > [class*="header-"],
 #friends > [class*="flex"],
-.chat > [class*="titleWrapper-"] > [class*="flex-"] {
+.da-chat > [class*="titleWrapper-"] > [class*="flex-"] {
 	background: rgba(0,0,0,.7);
 }
 
 /* Guild scroller */
 
-.guilds-wrapper {
-	background: rgba(0,0,0, .1);
+.da-guildsWrapper {
+	background: rgba(0,0,0, .1) !important;
 }
 
 /* Settings */
@@ -234,9 +234,8 @@ body:before {
 .messages-wrapper,
 .messages-wrapper .scroller-wrap,
 .messages-wrapper .scroller-wrap .messages,
-.chat,
-.chat form,
-.chat .content,
+.da-chat,
+.da-chat form,
 .typing,
 .da-message .da-markup pre code,
 
@@ -586,6 +585,36 @@ div[class*="statusOnline-"]  {
 	 margin-bottom: 1px;
  }
 
+/* Search */
+
+.search-results-wrap > .scrollerWrap-2lJEkd {
+	background: rgba(0,0,0,.6) !important;
+}
+
+.search-result:after,
+.search-result:before {
+	content: none !important;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+	background: rgba(0,0,0,.4);
+	border-radius: 5px !important;
+}
+
+.search-result.expanded {
+	border: none !important;
+}
+
+.theme-dark .search-results-wrap .search-result .hit {
+	box-shadow: none;
+	background: rgba(0,0,0,0);
+	border: none !important;
+}
+
+.search-header {
+	background: rgba(0,0,0,.7) !important;
+}
+
+
 /***
  *      _____  _             _          _____                              _
  *     |  __ \| |           (_)        / ____|                            | |
@@ -815,26 +844,6 @@ div[class*="statusOnline-"]  {
 
 	--des-default:		0;
 }
-
-
-.message-group .comment .markup pre code:before {
-
-  position: relative;
-  display: block;
-  top: 0;
-  text-align: center;
-  width: auto;
-  color: rgba(255, 98, 98, 0.99);
-  background-color: rgba(0,0,0,.5);
-  border: 0px solid black;
-  border-radius: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: 0px !important;
-  margin-bottom: 4px;
-
-}
-
 
 .da-message .da-markup pre code:before {
 
