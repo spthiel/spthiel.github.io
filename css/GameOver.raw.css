@@ -433,16 +433,16 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
 }
 
 .private-channels .avatar-small .status {
-	top: -2px;
+	top: -1px;
 }
 
 .avatar-small .status {
   margin: 0;
-  right: 2px !important;
-  top: 0;
+  right: 1px !important;
+  top: -1px;
   position: relative;
-  height: 30px !important;
-  width: 30px !important;
+  height: 29px !important;
+  width: 29px !important;
   border-radius: 50%;
   background-color: transparent;
   border-width: 2px;
@@ -452,11 +452,11 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
 
 .avatarWrapper-3B0ndJ .small-5Os1Bb ~ .status-2s6iDp {
 	  margin: 0 0 0 0;
-	  right: 2px !important;
-	  top: -32px;
+	  right: 1px !important;
+	  top: -31px;
 	  position: relative;
-	  height: 30px !important;
-	  width: 30px !important;
+	  height: 29px !important;
+	  width: 29px !important;
 	  border-radius: 50%;
 	  background-color: transparent;
 	  border-width: 2px;
