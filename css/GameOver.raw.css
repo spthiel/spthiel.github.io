@@ -438,28 +438,28 @@ div[class*="popout-"] > div [class*="avatarStatus-"]{
 
 .avatar-small .status {
   margin: 0;
-  right: 1px !important;
-  top: -1px;
+  right: 2px !important;
+  top: -2px;
   position: relative;
-  height: 29px !important;
-  width: 29px !important;
+  height: 28px !important;
+  width: 28px !important;
   border-radius: 50%;
   background-color: transparent;
-  border-width: 2px;
+  border-width: 3px;
   border-style: solid;
 	pointer-events: none;
 }
 
 .avatarWrapper-3B0ndJ .small-5Os1Bb ~ .status-2s6iDp {
 	  margin: 0 0 0 0;
-	  right: 1px !important;
+	  right: 2px !important;
 	  top: -31px;
 	  position: relative;
-	  height: 29px !important;
-	  width: 29px !important;
+	  height: 28px !important;
+	  width: 28px !important;
 	  border-radius: 50%;
 	  background-color: transparent;
-	  border-width: 2px;
+	  border-width: 3px;
 	  border-style: solid;
 }
 
